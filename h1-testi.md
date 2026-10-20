@@ -9,7 +9,13 @@ Jopas jotakin 'Testi' asdasd
 ###  testi
 
   pwd- 
+  
 <img width="261" height="186" alt="adadasdasd" src="https://github.com/user-attachments/assets/63df4e99-2f2a-4f6b-b357-0e20f46d3fa2" />
+Tämä on kuva näytöstäni.
+
+<img width="824" height="225" alt="kuva" src="https://github.com/user-attachments/assets/33a98d24-83fe-47db-8d8b-371105088699" />
+Tämä on taas Ylen:sivuilta.
+
 
   
 

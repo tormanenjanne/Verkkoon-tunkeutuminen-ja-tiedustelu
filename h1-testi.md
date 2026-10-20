@@ -16,7 +16,7 @@ tässä on kuvateksti
 
 <img width="824" height="225" alt="kuva" src="https://github.com/user-attachments/assets/33a98d24-83fe-47db-8d8b-371105088699" />
 
-<figcaption> Tämä kuva on taas Ylen sivuilta </figcaption>
+Tämä kuva on yleltä
 
 
   

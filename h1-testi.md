@@ -17,7 +17,7 @@ tässä on kuvateksti
 <img width="824" height="225" alt="kuva" src="https://github.com/user-attachments/assets/33a98d24-83fe-47db-8d8b-371105088699" />
 
 Tämä kuva on yleltä `code`
-Tässä on koodi `print(Hello,World);`
+Tässä on koodi `print(Hello,World); koodin saa `koodi`
 
 Tässä linkki www.yle.fi
   

@@ -1,3 +1,9 @@
+
+---
+layout: default
+---
+
+
 # h1-korva-netissä
 Tässä tehtävässä tehdään muutamia tehtäviä liittyen spektriin, radiotaajuuksiin sekä tarkastellaan tehtävien tuloksia sekä analysoidaan niitä lähteiden tukemana. Tehtäviä on yhteensä viisi kappaletta.
 

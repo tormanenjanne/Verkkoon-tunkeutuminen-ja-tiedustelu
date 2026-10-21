@@ -28,11 +28,23 @@ Tarkoituksena on siepata radioliikennettä siten, että se on vähintään 400km
 
 Vaihdoin modulaatioksi LSB (Lower Sideband), joka toimii 40, 80 ja 120M kaistoilla. (Mdarc 2026) Edelliseen lähteeseen myös viitataten, tämä on yksi suositummista amatööriradiotaajuuksista.
 
+Kun muutin taajuden takaisin 1658Khz, ja vainhdoin modutaaliton FM, taajuudesta ei kuulunut enään muutakuin suhinaa. Tämä ilmeisesti johtuu siitä, että FM-taajudet ovat megahertsejä (Mhz), kun taas AM-taajudet ovat kilohertzejä (Khz).
+
+##  ADS-B. Etsi jokin sinua kiinnnostava lentokone ADS-B Exchange -palvelusta. Kuvaile konetta ja sen lentoa. Selitä, miten tiedot on saatu.
+
+
+Valitsin Naton lentokoneen, joka on rekisteröity Luxemburgiin ja tämä on sotilaskone. Lentokoneen malli on   BOEING E-3 Sentry (TF33). Kone on lähtenyt liikkeelle Saksasta Nato:n ilmatukikohdasta, ja on matkalla itä-eurooppaan päin.
+
+ADS-B on vastaanotinverkko, joka tarjoaa maailmanlaajuisen sekä reealiaikaisen näkyvyyden lentokonetoiminnasta. Tämän tarkoituksena on tarjota läpäinäkyvää lentoliikennettä kaikille. ADS-B hyödyntää radiosignaaleja lentokoneiden seuraamiseen. (ADS.B Exchange 2026;Federal Aviation Administration 2026)
+
+
 
 
 
 ## Lähteet
 
+ADS-B Exchange 2026. Global Flight Tracking. Built on Accuracy. Luettavissa: https://www.adsbexchange.com/. Luettu: 21.10.2026.
+Federal Aviation Administration 2026. Ins and Outs. Luettavissa: https://www.faa.gov/air_traffic/technology/equipadsb/capabilities/ins_outs. Luettu: 21.10.2026.
 Mdarc 2026. LSB or USB? Luettavissa: https://www.mdarc.org/operating-aids/lsb-or-usb. Luettu: 21.10.2026.
 Nasa 2023. Anatomy of an Electromagnetic Wave. Luettavissa: https://science.nasa.gov/ems/02_anatomy/. Luettu: 21.10.2026.
 Nasa 2026. The Electromagnetic Spectrum. Luettavissa: https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/electromagnetic-spectrum. Luettu: 21.10.2026.

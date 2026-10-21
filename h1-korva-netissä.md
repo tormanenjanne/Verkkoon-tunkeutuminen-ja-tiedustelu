@@ -26,11 +26,14 @@ Tarkoituksena on siepata radioliikennettä siten, että se on vähintään 400km
 
 ###  Moduwhat? Kuuntele kanavaa, joka käyttää eri modulaatiota (AM, FM...) kuin edellisessä kohdassa käyttämäsi kanava.
 
+Vaihdoin modulaatioksi LSB (Lower Sideband), joka toimii 40, 80 ja 120M kaistoilla. (Mdarc 2026) Edelliseen lähteeseen myös viitataten, tämä on yksi suositummista amatööriradiotaajuuksista.
+
 
 
 
 ## Lähteet
 
+Mdarc 2026. LSB or USB? Luettavissa: https://www.mdarc.org/operating-aids/lsb-or-usb. Luettu: 21.10.2026.
 Nasa 2023. Anatomy of an Electromagnetic Wave. Luettavissa: https://science.nasa.gov/ems/02_anatomy/. Luettu: 21.10.2026.
 Nasa 2026. The Electromagnetic Spectrum. Luettavissa: https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/electromagnetic-spectrum. Luettu: 21.10.2026.
 

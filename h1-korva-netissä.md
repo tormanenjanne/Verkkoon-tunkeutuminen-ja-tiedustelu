@@ -4,6 +4,8 @@ Tässä tehtävässä tehdään muutamia tehtäviä liittyen spektriin, radiotaa
 ## Spektri: Piirrä oma sähkömagneettinen spektri. Eli jana, jossa taajuus kasvaa. Ja 3-10 itseäsi kiinnostavaa sovellusta.
 
 <img width="1159" height="610" alt="kuva" src="https://github.com/user-attachments/assets/b1a9c709-6f72-43b0-b7ba-bb42c72d5ce4" />
+<img width="1118" height="569" alt="kuva" src="https://github.com/user-attachments/assets/30a12909-3490-4fbf-9626-8bf6b1870e18" />
+
 
 
 **Kuva 1**. Tässä on piirrettynä spektrini, sekä kolme eri kiinnostavaa sovellusta. Huomaamme, että aallonpituus kasvaa oikelta vasemmalle päin sekä antennin koko. Läpäisevyys sekä kyky siirtää tietoa taas vasemmalta oikealle. (Mukaillen Nasa, 2026)

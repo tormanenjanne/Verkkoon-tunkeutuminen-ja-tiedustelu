@@ -37,6 +37,10 @@ Valitsin Naton lentokoneen, joka on rekisteröity Luxemburgiin ja tämä on soti
 
 ADS-B on vastaanotinverkko, joka tarjoaa maailmanlaajuisen sekä reealiaikaisen näkyvyyden lentokonetoiminnasta. Tämän tarkoituksena on tarjota läpäinäkyvää lentoliikennettä kaikille. ADS-B hyödyntää radiosignaaleja lentokoneiden seuraamiseen. (ADS.B Exchange 2026;Federal Aviation Administration 2026)
 
+-ADS-B Out: Lähettää tietoja lentokoneen sijainnista, nopeudesta, maannopeudesta ja niin edelleen noin kerran sekunnissa. Lennonjohto voivat saada tämän avulla tiedot välittömästi. (Federal Aviation Administration 2026)
+
+
+
 
 
 

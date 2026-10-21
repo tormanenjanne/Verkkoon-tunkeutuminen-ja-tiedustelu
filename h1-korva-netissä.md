@@ -16,7 +16,7 @@ Tässä tehtävässä tehdään muutamia tehtäviä liittyen spektriin, radiotaa
 Kuten näemme kuvassa: Aallonpituus kasvaa aina oikealta vasemmalle, ja näiden välinen pituus on harjanteiden välinen ero. Lyhyimmät aallonpituudet voivat olla atomin kokoisia, kun taas suurimmat voivat olla jopa suurempia kuin planeetamme halkaisija. (Nasa 2023)
 
 ## WebSDR. Etäkäytä WebSDR-ohjelmaradiota, joka on kaukana sinusta ja kuuntele radioliikennettä
-Tarkoituksena on siepata radioliikennettä siten, että se on vähintään 400km paikasta, mistä teen tätä tehtävää. Käytän tässä tehtävässä esimerkkinä toisen maan julkista radiolähetystä, eli yleisradiolähetystä.
+Tarkoituksena on siepata radioliikennettä siten, että se on vähintään 400km paikasta, mistä teen tätä tehtävää. Käytän tässä tehtävässä esimerkkinä toisen maan radiolähetystä, joka on amatöörien pitämä.
 
 <img width="1755" height="193" alt="kuva" src="https://github.com/user-attachments/assets/f1ffa301-b6fb-47f9-8e5f-857115c4f8c3" />
 
@@ -28,7 +28,11 @@ Tarkoituksena on siepata radioliikennettä siten, että se on vähintään 400km
 
 ###  Moduwhat? Kuuntele kanavaa, joka käyttää eri modulaatiota (AM, FM...) kuin edellisessä kohdassa käyttämäsi kanava.
 
-Vaihdoin modulaatioksi LSB (Lower Sideband), joka toimii 40, 80 ja 120M kaistoilla. (Mdarc 2026) Edelliseen lähteeseen myös viitataten, tämä on yksi suositummista amatööriradiotaajuuksista.
+Vaihdoin modulaatioksi LSB (Lower Sideband), joka toimii 40, 80 ja 120M kaistoilla. (Mdarc 2026) Edelliseen lähteeseen myös viitataten, tämä on yksi suositummista amatööriradiotaajuuksista. Taajuus oli 7155.000 Khz, ja kanavasta kuului linnun ääntä.
+<img width="1346" height="403" alt="kuva" src="https://github.com/user-attachments/assets/858b1fb5-b502-4cc0-84de-3aa4e46f51d7" />
+
+Kuvassa huomataan, että taajuus on vaihdettu sekä modulaation AM -> LSB.
+
 
 Kun muutin taajuden takaisin 1658Khz, ja vainhdoin modutaaliton FM, taajuudesta ei kuulunut enään muutakuin suhinaa. Tämä ilmeisesti johtuu siitä, että FM-taajudet ovat megahertsejä (Mhz), kun taas AM-taajudet ovat kilohertzejä (Khz). (Diffen 2026)
 

@@ -13,7 +13,7 @@ Tässä tehtävässä tehdään muutamia tehtäviä liittyen spektriin, radiotaa
 
 Kuten näemme kuvassa: Aallonpituus kasvaa aina oikealta vasemmalle, ja näiden välinen pituus on harjanteiden välinen ero. Lyhyimmät aallonpituudet voivat olla atomin kokoisia, kun taas suurimmat voivat olla jopa suurempia kuin planeetamme halkaisija. (Nasa 2023)
 
-### WebSDR. Etäkäytä WebSDR-ohjelmaradiota, joka on kaukana sinusta ja kuuntele radioliikennettä
+## WebSDR. Etäkäytä WebSDR-ohjelmaradiota, joka on kaukana sinusta ja kuuntele radioliikennettä
 Tarkoituksena on siepata radioliikennettä siten, että se on vähintään 400km paikasta, mistä teen tätä tehtävää. Käytän tässä tehtävässä esimerkkinä toisen maan julkista radiolähetystä, eli yleisradiolähetystä.
 
 <img width="1755" height="193" alt="kuva" src="https://github.com/user-attachments/assets/f1ffa301-b6fb-47f9-8e5f-857115c4f8c3" />
@@ -24,7 +24,7 @@ Tarkoituksena on siepata radioliikennettä siten, että se on vähintään 400km
 
 **Kuva 3**. Taajuuden, jolla sain yhteyden radiokanavaan oli **1658Khz**,modulaationa oli AM sekä aallonpituus oli **AM-160-120M**. Kuvassa kyseiset kohdat ollaan huomioitu punaisilla laatikoilla, joista löyttyi tiedot. Tehtävässä sain äänen kuulumaan laittamalla **Firefex/Mozilla audio start** päälle, sekä tämän jälkeen säätämällä taajuuksia sekä vaihtamalla modulaation **AM**, jotta sain äänen kuulumaan.
 
-#  Moduwhat? Kuuntele kanavaa, joka käyttää eri modulaatiota (AM, FM...) kuin edellisessä kohdassa käyttämäsi kanava.
+###  Moduwhat? Kuuntele kanavaa, joka käyttää eri modulaatiota (AM, FM...) kuin edellisessä kohdassa käyttämäsi kanava.
 
 
 

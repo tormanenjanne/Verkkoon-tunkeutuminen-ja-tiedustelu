@@ -28,7 +28,7 @@ Tarkoituksena on siepata radioliikennettä siten, että se on vähintään 400km
 
 Vaihdoin modulaatioksi LSB (Lower Sideband), joka toimii 40, 80 ja 120M kaistoilla. (Mdarc 2026) Edelliseen lähteeseen myös viitataten, tämä on yksi suositummista amatööriradiotaajuuksista.
 
-Kun muutin taajuden takaisin 1658Khz, ja vainhdoin modutaaliton FM, taajuudesta ei kuulunut enään muutakuin suhinaa. Tämä ilmeisesti johtuu siitä, että FM-taajudet ovat megahertsejä (Mhz), kun taas AM-taajudet ovat kilohertzejä (Khz).
+Kun muutin taajuden takaisin 1658Khz, ja vainhdoin modutaaliton FM, taajuudesta ei kuulunut enään muutakuin suhinaa. Tämä ilmeisesti johtuu siitä, että FM-taajudet ovat megahertsejä (Mhz), kun taas AM-taajudet ovat kilohertzejä (Khz). (Diffen 2026)
 
 ##  ADS-B. Etsi jokin sinua kiinnnostava lentokone ADS-B Exchange -palvelusta. Kuvaile konetta ja sen lentoa. Selitä, miten tiedot on saatu.
 
@@ -44,6 +44,8 @@ ADS-B on vastaanotinverkko, joka tarjoaa maailmanlaajuisen sekä reealiaikaisen 
 ## Lähteet
 
 ADS-B Exchange 2026. Global Flight Tracking. Built on Accuracy. Luettavissa: https://www.adsbexchange.com/. Luettu: 21.10.2026.
+
+Diffen 2026. AM vs. FM. Luettavissa: https://www.diffen.com/difference/AM_vs_FM. Luettu: 21.10.2026
 
 Federal Aviation Administration 2026. Ins and Outs. Luettavissa: https://www.faa.gov/air_traffic/technology/equipadsb/capabilities/ins_outs. Luettu: 21.10.2026.
 

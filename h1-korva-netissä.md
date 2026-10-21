@@ -49,7 +49,7 @@ ADS-B on vastaanotinverkko, joka tarjoaa maailmanlaajuisen sekä reaaliaikaisen 
 -ADS-B Out: Lähettää tietoja lentokoneen sijainnista, nopeudesta, maannopeudesta ja niin edelleen noin kerran sekunnissa. Lennonjohto voi saada tämän avulla tiedot välittömästi. (Federal Aviation Administration 2026)
 
 
-
+Tämän työn kielen korjaamisessa on hyödynnetty ChatGPT:tä. Syötteenä käytettiin: ”Etsi mahdolliset kielioppivirheet”.
 
 
 

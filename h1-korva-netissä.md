@@ -24,7 +24,9 @@ Tarkoituksena on siepata radioliikennettä siten, että se on vähintään 400 k
 
 <img width="1448" height="482" alt="kuva" src="https://github.com/user-attachments/assets/5fe42792-80df-4612-9a5b-57b78b6fcc14" />
 
-**Kuva 3**. Taajuuden, jolla sain yhteyden radiokanavaan oli **1658 kHz**,modulaationa oli AM sekä aallonpituus oli **AM-160-120M**. Kuvassa kyseiset kohdat ollaan huomioitu punaisilla laatikoilla, joista löytyivät tiedot. Tehtävässä sain äänen kuulumaan laittamalla **Firefox/Mozilla audio start** päälle, sekä tämän jälkeen säätämällä taajuuksia sekä vaihtamalla modulaation **AM**, jotta sain äänen kuulumaan.
+**Kuva 3**. Taajuuden, jolla sain yhteyden radiokanavaan oli **1658 kHz**,modulaationa oli AM. Aallonpituus oli vähän vajaa 178 metriä. (Tähän löytyi sovellus, joka laski suoraan tämän arvon Lähde: https://www.digikey.fi/fi/resources/conversion-calculators/conversion-calculator-wavelength.) Kuvassa kyseiset kohdat ollaan huomioitu punaisilla laatikoilla, joista löytyivät tiedot. Tehtävässä sain äänen kuulumaan laittamalla **Firefox/Mozilla audio start** päälle, sekä tämän jälkeen säätämällä taajuuksia sekä vaihtamalla modulaation **AM**, jotta sain äänen kuulumaan.
+
+Aallonpituuden kaava on siis: Valon nopeus (eli noin 300metriä/sekunti) / taajudella (Tässä pitää ottaa huomioon, onko kyseessä kilo-, giga- vai megahertsi). (Digikey 2026)
 
 ###  Moduwhat? Kuuntele kanavaa, joka käyttää eri modulaatiota (AM, FM...) kuin edellisessä kohdassa käyttämäsi kanava.
 
@@ -55,6 +57,7 @@ ADS-B on vastaanotinverkko, joka tarjoaa maailmanlaajuisen sekä reaaliaikaisen 
 
 ADS-B Exchange 2026. Global Flight Tracking. Built on Accuracy. Luettavissa: https://www.adsbexchange.com/. Luettu: 21.10.2026.
 
+Digikey 2026. Muunnos ITU-radiotaajuudesta aallonpituudeksi. Luettavissa: https://www.digikey.fi/fi/resources/conversion-calculators/conversion-calculator-wavelength. Luettu: 21.10.2026
 Diffen 2026. AM vs. FM. Luettavissa: https://www.diffen.com/difference/AM_vs_FM. Luettu: 21.10.2026
 
 Federal Aviation Administration 2026. Ins and Outs. Luettavissa: https://www.faa.gov/air_traffic/technology/equipadsb/capabilities/ins_outs. Luettu: 21.10.2026.

@@ -6,7 +6,7 @@ Tässä tehtävässä tehdään muutamia tehtäviä liittyen spektriin, radiotaa
 <img width="1159" height="610" alt="kuva" src="https://github.com/user-attachments/assets/b1a9c709-6f72-43b0-b7ba-bb42c72d5ce4" />
 
 
-**Kuva 1**. Tässä on piirrettynä spektrini, sekä kolme eri kiinnostavaa sovellusta. Huomaamme, että aallonpituus kasvaa oikelta vasemmalle päin sekä antennin koko. Läpäisevyys sekä kyky siirtää tietoa taas oikealta vasemalle. (Mukaillen Nasa, 2026)
+**Kuva 1**. Tässä on piirrettynä spektrini, sekä kolme eri kiinnostavaa sovellusta. Huomaamme, että aallonpituus kasvaa oikelta vasemmalle päin sekä antennin koko. Läpäisevyys sekä kyky siirtää tietoa taas vasemmalta oikealle. (Mukaillen Nasa, 2026)
 
 
 

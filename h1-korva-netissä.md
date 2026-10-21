@@ -22,7 +22,7 @@ Kuva 2. Valitsin Brasiliasta, Pardinhon kaupungista olevan radiotaajuuden.
 
 <img width="1448" height="482" alt="kuva" src="https://github.com/user-attachments/assets/5fe42792-80df-4612-9a5b-57b78b6fcc14" />
 
-Kuva 3. Taajuuden, jolla sain yhteyden radiokanavaan oli 1658Khz,modulaationa oli AM sekä aallonpituus oli AM-160-120M
+Kuva 3. Taajuuden, jolla sain yhteyden radiokanavaan oli **1658Khz**,modulaationa oli AM sekä aallonpituus oli **AM-160-120M**. Kuvassa kyseiset kohdat ollaan huomioitu punaisilla laatikoilla, joista löyttyi tiedot. Tehtävässä sain äänen kuulumaan laittamalla **Firefex/Mozilla audio start** päälle, sekä tämän jälkeen säätämällä taajuuksia sekä vaihtamalla modulaation **AM**, jotta sain äänen kuulumaan.
 
 
 ## Lähteet

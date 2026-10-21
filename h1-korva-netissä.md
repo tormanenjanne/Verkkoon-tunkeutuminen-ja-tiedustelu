@@ -28,7 +28,7 @@ Tarkoituksena on siepata radioliikennettä siten, että se on vähintään 400km
 
 ###  Moduwhat? Kuuntele kanavaa, joka käyttää eri modulaatiota (AM, FM...) kuin edellisessä kohdassa käyttämäsi kanava.
 
-Vaihdoin modulaatioksi LSB (Lower Sideband), joka toimii 40, 80 ja 120M kaistoilla. (Mdarc 2026) Edelliseen lähteeseen myös viitataten, tämä on yksi suositummista amatööriradiotaajuuksista. Taajuus oli 7155.000 Khz, ja kanavasta kuului linnun ääntä.
+Vaihdoin modulaatioksi LSB (Lower Sideband), joka toimii 40, 80 ja 120M kaistoilla. (Mdarc 2026) Edelliseen lähteeseen myös viitataten, tämä on yksi suositummista amatööriradiotaajuuksista. Taajuus oli 7162.000 Khz, ja kanavasta kuului linnun ääntä.
 <img width="1346" height="403" alt="kuva" src="https://github.com/user-attachments/assets/858b1fb5-b502-4cc0-84de-3aa4e46f51d7" />
 
 Kuvassa huomataan, että taajuus on vaihdettu sekä modulaation AM -> LSB.

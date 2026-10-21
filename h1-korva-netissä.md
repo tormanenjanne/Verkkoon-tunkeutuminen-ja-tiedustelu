@@ -44,8 +44,12 @@ ADS-B on vastaanotinverkko, joka tarjoaa maailmanlaajuisen sekä reealiaikaisen 
 ## Lähteet
 
 ADS-B Exchange 2026. Global Flight Tracking. Built on Accuracy. Luettavissa: https://www.adsbexchange.com/. Luettu: 21.10.2026.
+
 Federal Aviation Administration 2026. Ins and Outs. Luettavissa: https://www.faa.gov/air_traffic/technology/equipadsb/capabilities/ins_outs. Luettu: 21.10.2026.
+
 Mdarc 2026. LSB or USB? Luettavissa: https://www.mdarc.org/operating-aids/lsb-or-usb. Luettu: 21.10.2026.
+
 Nasa 2023. Anatomy of an Electromagnetic Wave. Luettavissa: https://science.nasa.gov/ems/02_anatomy/. Luettu: 21.10.2026.
+
 Nasa 2026. The Electromagnetic Spectrum. Luettavissa: https://www.earthdata.nasa.gov/learn/earth-observation-data-basics/electromagnetic-spectrum. Luettu: 21.10.2026.
 

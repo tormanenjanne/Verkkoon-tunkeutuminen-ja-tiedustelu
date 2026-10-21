@@ -3,7 +3,8 @@ Tässä tehtävässä tehdään muutamia tehtäviä liittyen spektriin, radiotaa
 
 ## Spektri: Piirrä oma sähkömagneettinen spektri. Eli jana, jossa taajuus kasvaa. Ja 3-10 itseäsi kiinnostavaa sovellusta.
 
-<img width="1118" height="569" alt="kuva" src="https://github.com/user-attachments/assets/30a12909-3490-4fbf-9626-8bf6b1870e18" />
+<img width="1111" height="621" alt="kuva" src="https://github.com/user-attachments/assets/0992d7df-fa6c-4218-bd19-254ccb9e2c5d" />
+
 
 
 

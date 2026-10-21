@@ -13,6 +13,18 @@ Kuva 1. Tässä on piirrettynä spektrini, sekä kolme eri kiinnostavaa sovellus
 
 Kuten näemme kuvassa: Aallonpituus kasvaa aina oikealta vasemmalle, ja näiden välinen pituus on harjanteiden välinen ero. Lyhyimmät aallonpituudet voivat olla atomin kokoisia, kun taas suurimmat voivat olla jopa suurempia kuin planeetamme halkaisija. (Nasa 2023)
 
+## WebSDR. Etäkäytä WebSDR-ohjelmaradiota, joka on kaukana sinusta ja kuuntele radioliikennettä
+Tarkoituksena on siepata radioliikennettä siten, että se on vähintään 400km paikasta, mistä teen tätä tehtävää. Käytän tässä tehtävässä esimerkkinä toisen maan julkista radiolähetystä, eli yleisradiolähetystä.
+
+<img width="1755" height="193" alt="kuva" src="https://github.com/user-attachments/assets/f1ffa301-b6fb-47f9-8e5f-857115c4f8c3" />
+
+Kuva 2. Valitsin Brasiliasta, Pardinhon kaupungista olevan radiotaajuuden.
+
+<img width="1448" height="482" alt="kuva" src="https://github.com/user-attachments/assets/5fe42792-80df-4612-9a5b-57b78b6fcc14" />
+
+Kuva 3. Taajuuden, jolla sain yhteyden radiokanavaan oli 1658Khz,modulaationa oli AM sekä aallonpituus oli AM-160-120M
+
+
 ## Lähteet
 
 Nasa 2023. Anatomy of an Electromagnetic Wave. Luettavissa: https://science.nasa.gov/ems/02_anatomy/. Luettu: 21.10.2026.

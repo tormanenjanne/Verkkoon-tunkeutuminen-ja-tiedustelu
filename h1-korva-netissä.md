@@ -6,7 +6,7 @@ Tässä tehtävässä tehdään muutamia tehtäviä liittyen spektriin, radiotaa
 <img width="1159" height="610" alt="kuva" src="https://github.com/user-attachments/assets/b1a9c709-6f72-43b0-b7ba-bb42c72d5ce4" />
 
 
-Kuva 1. Tässä on piirrettynä spektrini, sekä kolme eri kiinnostavaa sovellusta. Huomaamme, että aallonpituus kasvaa oikelta vasemmalle päin sekä antennin koko. Läpäisevyys sekä kyky siirtää tietoa taas oikealta vasemalle. (Mukaillen Nasa, 2026)
+**Kuva 1**. Tässä on piirrettynä spektrini, sekä kolme eri kiinnostavaa sovellusta. Huomaamme, että aallonpituus kasvaa oikelta vasemmalle päin sekä antennin koko. Läpäisevyys sekä kyky siirtää tietoa taas oikealta vasemalle. (Mukaillen Nasa, 2026)
 
 
 
@@ -18,11 +18,15 @@ Tarkoituksena on siepata radioliikennettä siten, että se on vähintään 400km
 
 <img width="1755" height="193" alt="kuva" src="https://github.com/user-attachments/assets/f1ffa301-b6fb-47f9-8e5f-857115c4f8c3" />
 
-Kuva 2. Valitsin Brasiliasta, Pardinhon kaupungista olevan radiotaajuuden.
+**Kuva 2**. Valitsin Yhdysvallat, Corine kaupungin olevan radiotaajuuden, joka on sijaitsee Utahin-osavaltiossa.
 
 <img width="1448" height="482" alt="kuva" src="https://github.com/user-attachments/assets/5fe42792-80df-4612-9a5b-57b78b6fcc14" />
 
-Kuva 3. Taajuuden, jolla sain yhteyden radiokanavaan oli **1658Khz**,modulaationa oli AM sekä aallonpituus oli **AM-160-120M**. Kuvassa kyseiset kohdat ollaan huomioitu punaisilla laatikoilla, joista löyttyi tiedot. Tehtävässä sain äänen kuulumaan laittamalla **Firefex/Mozilla audio start** päälle, sekä tämän jälkeen säätämällä taajuuksia sekä vaihtamalla modulaation **AM**, jotta sain äänen kuulumaan.
+**Kuva 3**. Taajuuden, jolla sain yhteyden radiokanavaan oli **1658Khz**,modulaationa oli AM sekä aallonpituus oli **AM-160-120M**. Kuvassa kyseiset kohdat ollaan huomioitu punaisilla laatikoilla, joista löyttyi tiedot. Tehtävässä sain äänen kuulumaan laittamalla **Firefex/Mozilla audio start** päälle, sekä tämän jälkeen säätämällä taajuuksia sekä vaihtamalla modulaation **AM**, jotta sain äänen kuulumaan.
+
+#  Moduwhat? Kuuntele kanavaa, joka käyttää eri modulaatiota (AM, FM...) kuin edellisessä kohdassa käyttämäsi kanava.
+
+
 
 
 ## Lähteet

@@ -32,14 +32,29 @@ Tässä vielä kuva, jossa verkkoliikenne toimii aluksi (wired kohta on sinisen�
 
 Wiresharkin asennus suoritettiin tunnin aikana, ja tämä onnistui komennolla `sudo apt-get install wireshark`. Asentamisen aikana tuli banneri, jossa varmistettiin, että haluammeko muiden kuin superuserit sieppaamaan pakettaja, tähän vastataan `yes`. Näin saimme asennettua wiresharkin.
 
-Huomiona on tässä aikasemmassa mainitussa (lue ja tiivistä wireshark tehtävä x), on lisätä itsensä Wireshark ryhmään, jotta pysty alkaa nuuskimaan verkkoliikennettä. Komento on siis `sudo adduser OmaKäyttäjäNimi wireshark`. Lopuksi buutataan vielä virtuaalikone, jotta päivitykset astuvat voimaan. 
+Huomiona on tässä aikasemmassa mainitussa (lue ja tiivistä wireshark tehtävä x), on lisätä itsensä Wireshark ryhmään, jotta pysty alkaa nuuskimaan verkkoliikennettä. Komento on siis `sudo adduser OmaKäyttäjäNimi wireshark`. Lopuksi buutataan vielä virtuaalikone, jotta päivitykset astuvat voimaan.
 
+Liikenteen sieppaaminen onnistuu avaamalla Wireshark terminaalissa komennolla `wireshark`, joka avaa tämän ohjelman. Ohjelmasta valitsemme `enp0s3`, joka on meidän virtuaallinen langallinen verkkokortti.
 
+<img width="816" height="411" alt="kuva" src="https://github.com/user-attachments/assets/0901ad36-3aab-4a03-8958-a500a0059aa3" />
 
+Lopuksi vielä testasin, että saan siepattua liikennettä. Avasin Firefoxin, ja kirjoitin selaimeen `yle.fi`, ja tämän jälkeen Wiresharkissa alkoi verkkoliikenne liikkua, alhaalla vielä kuva tästä.
+
+<img width="1105" height="233" alt="kuva" src="https://github.com/user-attachments/assets/6ab397ab-f5b0-4999-a6ae-875eebb70b81" />
+
+## Osoita TCP/IP-mallin neljä kerrosta yhdestä siepatusta paketista
+
+<img width="1155" height="735" alt="kuva" src="https://github.com/user-attachments/assets/827c191a-2d03-4657-bdb7-662be5fd0267" />
+
+- Punainen laatikko: Tämä on TCP/IP kerroksesta Link kerros, joka lähettää ja vastaanottaa tietoa paikallisessa verkossa. tiedonsiirto toimii muun muassa Mac-osoitteilla.
+- Sininen laatikko: TCP/IP kerroksen internet kerros, jossa näkyy kohde- sekä vastaanottajan ip-osoitteet. Tässä käytetään muun muassa IPv4- ja IPv6 prokollia sekä ICMP (Internet Control Message Protocol).
+- Keltainen laatikko: TCP/IP kerroksen transport kerros, joka lähettää paketteja joko TCP ja UDP protokollan välityksellä. TCP on luotettavampi kuin UDP, ja tässä data saapuu järjestyksessä, ja . TCP toimii muun muassa sähköpostien lähetyksessä. UDP-protokolla voi tiputtaa paketteja, ja se ei ole niin varma kuin TCP. UDP-protokollaa käytetään muun muassa pelaamisessa tai striimaamisessa.
+- Vihreä laatikko: TCP/IP kerroksen application kerros, jossa toimii muun muassa verkkoselaimet, sähköpostiohjelmat sekä tiedostojen jakamistyökalut. Protokollia tähän kuuluu muun muassa: HTTP, FTP,SMTP ja DNS.
 
 
   
 ## Lähteet
+-GeekForGeeks 2026. TCP/IP Model. Luettavissa: https://www.geeksforgeeks.org/computer-networks/tcp-ip-model/. Luettu: 27.10.2026.
 - Karvinen 2025. Wireshark - Getting started. Luettavissa: https://terokarvinen.com/wireshark-getting-started/. Luettu: 27.10.2026.
 - Karvinen 2025. Network Interface Names on Linux: Luettavissa: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/#tehtavanannot. Luettu: 27.10.2026.
 

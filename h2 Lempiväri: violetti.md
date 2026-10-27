@@ -17,5 +17,7 @@ Koneen tiedot:
 
 
 ## Lähteet
-- Luettavissa: https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html. Luettu 27.10.2026.
+- Blogspot, 2014. The Pyramid of pain. Luettavissa: https://detect-respond.blogspot.com/2013/03/the-pyramid-of-pain.html. Luettu 27.10.2026.
+- Goss, A 2024. The Diamond Model of Intrusion Analysis: Simple Intelligence-Driven Analysis. Luettavissa: https://kravensecurity.com/diamond-model-analysis/. Luettu: 27.10.2026.
+
 

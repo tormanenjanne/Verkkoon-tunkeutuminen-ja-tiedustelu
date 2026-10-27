@@ -20,11 +20,11 @@ Koneen tiedot:
 
 ## Osoittaminen, että voin katkaista ja palauttamaan virtuaalikoneen internet-yhteyden
 
-Avattuani virtuaalikoneen, ja pingaamalla terminaalissa `ping 8.8.8.8`, joka on Googlen nimipalvelin, huomaamme liikenteen liikkuvan. Liikenteen palauttaminen onnistuu katkaisemalla oikealta valikosta volume nappulan vierestä `Connected to the wired network`, ja täältä wired kohtaan "täppä" mustaksi.
+Avattuani virtuaalikoneen, ja pingaamalla terminaalissa `ping 8.8.8.8`, joka on Googlen nimipalvelin, huomaamme liikenteen liikkuvan. Liikenteen palauttaminen onnistuu katkaisemalla oikealta valikosta volume nappulan vierestä `Connected to the wired network`, ja täältä wired kohtaan "täppä" mustaksi. Verkkoliikenteen palauttaminen onnistuu painamalla wired kohtaa uudestaan, jotta se muuttuu siniseksi.
 
 <img width="238" height="184" alt="kuva" src="https://github.com/user-attachments/assets/341e1560-eaf8-4179-8a7e-48bd3e65add9" />
 
-Verkkoliikenteen palauttaminen onnistuu painamalla wired kohtaa uudestaan, jotta se muuttuu siniseksi. Tässä vielä kuva, jossa verkkoliikenne toimii aluksi, liikenteen katkaisemisen jälkeen ei saada enään yhteyttä Googlen nimipalvelimeen, ja lopuksi verkkoliikenteen palauttaminen normaaliksi.
+Tässä vielä kuva, jossa verkkoliikenne toimii aluksi (wired kohta on sinisenä), liikenteen katkaisemisen jälkeen ei saada enään yhteyttä Googlen nimipalvelimeen (wired kohta on musta), ja lopuksi verkkoliikenteen palauttaminen normaaliksi (wired kohta on palautettu takaisin siniseksi).
 
 <img width="726" height="402" alt="kuva" src="https://github.com/user-attachments/assets/78e6a06c-3848-4d7d-ba98-d23ea6474801" />
 

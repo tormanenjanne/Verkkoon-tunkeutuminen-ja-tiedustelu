@@ -28,6 +28,12 @@ Tässä vielä kuva, jossa verkkoliikenne toimii aluksi (wired kohta on sinisen�
 
 <img width="726" height="402" alt="kuva" src="https://github.com/user-attachments/assets/78e6a06c-3848-4d7d-ba98-d23ea6474801" />
 
+## Wireshark asennus sekä liikenteen sieppaaminen
+
+Wiresharkin asennus suoritettiin tunnin aikana, ja tämä onnistui komennolla `sudo apt-get install wireshark`. Asentamisen aikana tuli banneri, jossa varmistettiin, että haluammeko muiden kuin superuserit sieppaamaan pakettaja, tähän vastataan `yes`. Näin saimme asennettua wiresharkin.
+
+Huomiona on tässä aikasemmassa mainitussa (lue ja tiivistä wireshark tehtävä x), on lisätä itsensä Wireshark ryhmään, jotta pysty alkaa nuuskimaan verkkoliikennettä. Komento on siis `sudo adduser OmaKäyttäjäNimi wireshark`. Lopuksi buutataan vielä virtuaalikone, jotta päivitykset astuvat voimaan. 
+
 
 
 

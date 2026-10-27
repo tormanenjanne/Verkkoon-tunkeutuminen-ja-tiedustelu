@@ -55,7 +55,7 @@ Lopuksi vielä testasin, että saan siepattua liikennettä. Avasin Firefoxin, ja
 
   
 ## Lähteet
--GeekForGeeks 2026. TCP/IP Model. Luettavissa: https://www.geeksforgeeks.org/computer-networks/tcp-ip-model/. Luettu: 27.10.2026.
+- GeekForGeeks 2026. TCP/IP Model. Luettavissa: https://www.geeksforgeeks.org/computer-networks/tcp-ip-model/. Luettu: 27.10.2026.
 - Karvinen 2025. Wireshark - Getting started. Luettavissa: https://terokarvinen.com/wireshark-getting-started/. Luettu: 27.10.2026.
 - Karvinen 2025. Network Interface Names on Linux: Luettavissa: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/#tehtavanannot. Luettu: 27.10.2026.
 

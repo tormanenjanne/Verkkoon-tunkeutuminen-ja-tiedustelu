@@ -44,7 +44,8 @@ Lopuksi vielä testasin, että saan siepattua liikennettä. Avasin Firefoxin, ja
 
 ## Osoita TCP/IP-mallin neljä kerrosta yhdestä siepatusta paketista
 
-<img width="1155" height="735" alt="kuva" src="https://github.com/user-attachments/assets/827c191a-2d03-4657-bdb7-662be5fd0267" />
+<img width="695" height="695" alt="kuva" src="https://github.com/user-attachments/assets/ad3486c8-c5d6-457d-9890-1dfe3ff31288" />
+
 
 - Punainen laatikko: Tämä on TCP/IP kerroksesta Link kerros, joka lähettää ja vastaanottaa tietoa paikallisessa verkossa. tiedonsiirto toimii muun muassa Mac-osoitteilla.
 - Sininen laatikko: TCP/IP kerroksen internet kerros, jossa näkyy kohde- sekä vastaanottajan ip-osoitteet. Tässä käytetään muun muassa IPv4- ja IPv6 prokollia sekä ICMP (Internet Control Message Protocol).

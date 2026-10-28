@@ -81,7 +81,7 @@ Mac-address lookupista löytyi tieto, joka viittaa joko Realtekin tai UpTech ver
 
 ## Millä weppipalvelimella käyttäjä on surffaillut?
 
-Kirjottamalla filtteriin `tls.handshake.type == 1`, joka näyttää tls handshake keskustelun alkamisen sovelluksen kanssa. huomaamme että, käyttäjä on surffaillut muun muassa: google.com, terokarvinen.com, goathunter.com ja gc.zgo.at. Tiedot löytyivät `info` kohdasta.
+Kirjottamalla filtteriin `tls.handshake.type == 1`, joka näyttää tls handshake keskustelun alkamisen sovelluksen kanssa. huomaamme että, käyttäjä on surffaillut muun muassa: google.com, terokarvinen.com, goatcounter.com ja gc.zgo.at. Tiedot löytyivät `info` kohdasta.
 
 <img width="1903" height="316" alt="kuva" src="https://github.com/user-attachments/assets/15c89baa-283c-4ac4-b501-12d4630ab418" />
 

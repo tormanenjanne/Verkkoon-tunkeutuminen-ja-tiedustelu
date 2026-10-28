@@ -18,7 +18,7 @@ Koneen tiedot:
 - Mistä tunnistan, mikä kuuluu verkkoliitäntä kuuluu mihinkin, voidaan päätellä esimerkiksi: "en == langallinen verkko", "wl == Wlaniin ja WiFi" ja `lo = loopback adapteri`. Näillä etuliittellä voidaan tunnistaa, millaista verkkoliitäntä haluamme kaapata esimerkkinä: `enp1s0 == langallinen verkkokortti`.
 - Omat verkkoliitännät voidaan tarkistaa komennolla: `ip a` ja `ip route`
 
-## Osoittaminen, että voin katkaista ja palauttamaan virtuaalikoneen internet-yhteyden
+## b)Osoittaminen, että voin katkaista ja palauttamaan virtuaalikoneen internet-yhteyden
 
 Avattuani virtuaalikoneen, ja pingaamalla terminaalissa `ping 8.8.8.8`, joka on Googlen nimipalvelin, huomaamme liikenteen liikkuvan. Liikenteen palauttaminen onnistuu katkaisemalla oikealta valikosta volume nappulan vierestä `Connected to the wired network`, ja täältä wired kohtaan "täppä" mustaksi. Verkkoliikenteen palauttaminen onnistuu painamalla wired kohtaa uudestaan, jotta se muuttuu siniseksi.
 
@@ -28,7 +28,7 @@ Tässä vielä kuva, jossa verkkoliikenne toimii aluksi (wired kohta on sinisen�
 
 <img width="726" height="402" alt="kuva" src="https://github.com/user-attachments/assets/78e6a06c-3848-4d7d-ba98-d23ea6474801" />
 
-## Wireshark asennus sekä liikenteen sieppaaminen
+## c)Wireshark asennus sekä liikenteen sieppaaminen
 
 Wiresharkin asennus suoritettiin tunnin aikana, ja tämä onnistui komennolla `sudo apt-get install wireshark`. Asentamisen aikana tuli banneri, jossa varmistettiin, että haluammeko muiden kuin superuserit sieppaamaan pakettaja, tähän vastataan `yes`. Näin saimme asennettua wiresharkin.
 
@@ -42,7 +42,7 @@ Lopuksi vielä testasin, että saan siepattua liikennettä. Avasin Firefoxin, ja
 
 <img width="1105" height="233" alt="kuva" src="https://github.com/user-attachments/assets/6ab397ab-f5b0-4999-a6ae-875eebb70b81" />
 
-## Osoita TCP/IP-mallin neljä kerrosta yhdestä siepatusta paketista
+## d)Osoita TCP/IP-mallin neljä kerrosta yhdestä siepatusta paketista
 
 <img width="695" height="695" alt="kuva" src="https://github.com/user-attachments/assets/ad3486c8-c5d6-457d-9890-1dfe3ff31288" />
 
@@ -52,7 +52,7 @@ Lopuksi vielä testasin, että saan siepattua liikennettä. Avasin Firefoxin, ja
 - Keltainen laatikko: TCP/IP kerroksen transport kerros, joka lähettää paketteja joko TCP ja UDP protokollan välityksellä. TCP on luotettavampi kuin UDP, ja tässä data saapuu järjestyksessä. TCP toimii muun muassa sähköpostien lähetyksessä. UDP-protokolla voi tiputtaa paketteja, ja se ei ole niin varma kuin TCP. UDP-protokollaa käytetään muun muassa pelaamisessa tai striimaamisessa.
 - Vihreä laatikko: TCP/IP kerroksen application kerros, jossa toimii muun muassa verkkoselaimet, sähköpostiohjelmat sekä tiedostojen jakamistyökalut. Protokollia tähän kuuluu muun muassa: HTTP, FTP,SMTP ja DNS.
 
-## surfing-secure.pcap. Tutustu siihen pintapuolisesti ja kuvaile, millainen kaappaus on kyseessä. Tässä siis vain lyhyesti ja yleisellä tasolla. Voit esimerkiksi vilkaista, montako konetta näkyy, mitä protokollia pistää silmään. Määrästä voit arvioida esimerkiksi pakettien lukumäärää, kaappauksen kokoa ja kestoa.
+## e)surfing-secure.pcap. Tutustu siihen pintapuolisesti ja kuvaile, millainen kaappaus on kyseessä. Tässä siis vain lyhyesti ja yleisellä tasolla. Voit esimerkiksi vilkaista, montako konetta näkyy, mitä protokollia pistää silmään. Määrästä voit arvioida esimerkiksi pakettien lukumäärää, kaappauksen kokoa ja kestoa.
 
 Kaappauksessa huomataan, että käyttäjä on vieraillut muun muassa Googlessa, terokarvinen.com ja lopuksi vielä Goatcounter (tämä on avoimen lähdekoodin web-analytiikkatyökalu).
 
@@ -68,7 +68,7 @@ Protokollia joita tässä sieppauksessa näkyy on muun muassa: DNS,QUIC,TCP,TLS 
 
 **Punaisella** näkyy pakettien kokonaismäärä: 283. **Keltaisella** kestoa, joka on 7 sekuntia ja **Vihreällä** Kaappauksen koko on: 126kb
 
-##  Minkä merkkinen verkkokortti käyttäjällä on?
+##  g)Minkä merkkinen verkkokortti käyttäjällä on?
 
 Selvittämällä Wiresharkista ensimmäiseksi meidän kohde mac-osoite linkki kerroksesta. Huomaamme, että osoite saadaan selville, mutta tässä tapauksessa Wireshark ei näytä valmistajaa.
 
@@ -79,14 +79,14 @@ Mac-address lookupista löytyi tieto, joka viittaa joko Realtekin tai UpTech ver
 <img width="955" height="489" alt="kuva" src="https://github.com/user-attachments/assets/5423d8b9-61b0-4129-aa91-89358d54e1cc" />
 
 
-## Millä weppipalvelimella käyttäjä on surffaillut?
+## h)Millä weppipalvelimella käyttäjä on surffaillut?
 
 Kirjottamalla filtteriin `tls.handshake.type == 1`, joka näyttää tls handshake keskustelun alkamisen sovelluksen kanssa. huomaamme että, käyttäjä on surffaillut muun muassa: google.com, terokarvinen.com, goatcounter.com ja gc.zgo.at. Tiedot löytyivät `info` kohdasta.
 
 <img width="1903" height="316" alt="kuva" src="https://github.com/user-attachments/assets/15c89baa-283c-4ac4-b501-12d4630ab418" />
 
 
-## Analyysi. Sieppaa pieni määrä omaa liikennettäsi. Analysoi se, eli selitä mahdollisimman perusteellisesti, mitä tapahtuu.
+## i)Analyysi. Sieppaa pieni määrä omaa liikennettäsi. Analysoi se, eli selitä mahdollisimman perusteellisesti, mitä tapahtuu.
 
 Pingasin terminaalissa Googlen nimipalvelimeen `ping 8.8.8.8`, ja analysoidaan tätä liikennettä.
 

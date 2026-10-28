@@ -81,9 +81,10 @@ Mac-address lookupista löytyi tieto, joka viittaa joko Realtekin tai UpTech ver
 
 ## Millä weppipalvelimella käyttäjä on surffaillut?
 
-Kirjottamalla filtteriin `dns` huomaamme että, käyttäjä on surffaillut muun muassa: google.com, terokarvinen.com, goathunter.com ja gc.zgo.at. Tiedot löytyivät `info` kohdasta.
+Kirjottamalla filtteriin `tls.handshake.type == 1`, joka näyttää tls handshake keskustelun alkamisen sovelluksen kanssa. huomaamme että, käyttäjä on surffaillut muun muassa: google.com, terokarvinen.com, goathunter.com ja gc.zgo.at. Tiedot löytyivät `info` kohdasta.
 
-<img width="1871" height="385" alt="kuva" src="https://github.com/user-attachments/assets/fa83dfe9-d5b5-4752-8de2-f4f5740ca46c" />
+<img width="1903" height="316" alt="kuva" src="https://github.com/user-attachments/assets/15c89baa-283c-4ac4-b501-12d4630ab418" />
+
 
 ## Analyysi. Sieppaa pieni määrä omaa liikennettäsi. Analysoi se, eli selitä mahdollisimman perusteellisesti, mitä tapahtuu.
 
@@ -108,8 +109,8 @@ Pingasin terminaalissa Googlen nimipalvelimeen `ping 8.8.8.8`, ja analysoidaan t
 -Käytin 27.10 1.5h raportin työstämiseen sekä 28.10 yhteensä noin 4-5h raportin työstämiseen ja tehtävien tekemiseen (Verkkokortti tehtävään meni yllättävän paljon aikaa...) 
   
 ## Lähteet
-- Luettavissa: https://analytics-alternatives.com/goatcounter-review-2026/. Luettu 28.10.2026.
 - GeekForGeeks 2026. TCP/IP Model. Luettavissa: https://www.geeksforgeeks.org/computer-networks/tcp-ip-model/. Luettu: 27.10.2026.
+- Hackerghost 2026. Wireshark Display Filters: 25 Essential Filters for Beginners. luettavissa: https://hackersghost.com/wireshark-display-filters/. luettu: 28.10.2026.
 - Karvinen 2025. Wireshark - Getting started. Luettavissa: https://terokarvinen.com/wireshark-getting-started/. Luettu: 27.10.2026.
 - Karvinen 2025. Network Interface Names on Linux: Luettavissa: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/#tehtavanannot. Luettu: 27.10.2026.
 

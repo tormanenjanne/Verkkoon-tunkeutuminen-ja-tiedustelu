@@ -94,18 +94,16 @@ Pingasin terminaalissa Googlen nimipalvelimeen `ping 8.8.8.8`, ja analysoidaan t
 
 <img width="892" height="670" alt="kuva" src="https://github.com/user-attachments/assets/891c49f3-47f6-4745-9da9-94ce697f3732" />
 
+### Paketti 1
 - Lähde ip on `10.0.2.15` ja kohde `8.8.8.8`.
 - Protokolla on ICMP, joka toimii internet kerroksessa.
 - Verkkokortti on `PCSSystemtec_93:06:f9`. 
-- Tässä lähetetään `ICMP echo request` pyyntö Googlen nimipalvelimeen `8.8.8.8` ja Google vastaa `ICMP echo reply`, että vastaanottaa paketteja.
+- Tässä lähetetään `ICMP echo request` pyyntö Googlen nimipalvelimeen `8.8.8.8`.
 - Ensimmäinen paketti on lähtenyt `2026-10-28 11:12:35` ja viimeinen `2026-10-28 11:12:42`, kesto on ollut 7 sekuntia.
-
-
-
-
--
-
-
+### Paketti 2
+- Lähde ip on `8.8.8.8` ja kohde `10.0.2.15`.
+- Sama protokolla kuin ensimmäisessä
+- Tässä taas vastataan ensimmäisen paketin kyselyyn `ICMP echo reply` viestillä, että paketti on tullut perille.
   
 ## Lähteet
 - Luettavissa: https://analytics-alternatives.com/goatcounter-review-2026/. Luettu 28.10.2026.

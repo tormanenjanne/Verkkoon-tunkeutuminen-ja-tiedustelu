@@ -49,7 +49,7 @@ Lopuksi vielä testasin, että saan siepattua liikennettä. Avasin Firefoxin, ja
 
 - Punainen laatikko: Tämä on TCP/IP kerroksesta Link kerros, joka lähettää ja vastaanottaa tietoa paikallisessa verkossa. tiedonsiirto toimii muun muassa Mac-osoitteilla.
 - Sininen laatikko: TCP/IP kerroksen internet kerros, jossa näkyy kohde- sekä vastaanottajan ip-osoitteet. Tässä käytetään muun muassa IPv4- ja IPv6 prokollia sekä ICMP (Internet Control Message Protocol).
-- Keltainen laatikko: TCP/IP kerroksen transport kerros, joka lähettää paketteja joko TCP ja UDP protokollan välityksellä. TCP on luotettavampi kuin UDP, ja tässä data saapuu järjestyksessä, ja . TCP toimii muun muassa sähköpostien lähetyksessä. UDP-protokolla voi tiputtaa paketteja, ja se ei ole niin varma kuin TCP. UDP-protokollaa käytetään muun muassa pelaamisessa tai striimaamisessa.
+- Keltainen laatikko: TCP/IP kerroksen transport kerros, joka lähettää paketteja joko TCP ja UDP protokollan välityksellä. TCP on luotettavampi kuin UDP, ja tässä data saapuu järjestyksessä. TCP toimii muun muassa sähköpostien lähetyksessä. UDP-protokolla voi tiputtaa paketteja, ja se ei ole niin varma kuin TCP. UDP-protokollaa käytetään muun muassa pelaamisessa tai striimaamisessa.
 - Vihreä laatikko: TCP/IP kerroksen application kerros, jossa toimii muun muassa verkkoselaimet, sähköpostiohjelmat sekä tiedostojen jakamistyökalut. Protokollia tähän kuuluu muun muassa: HTTP, FTP,SMTP ja DNS.
 
 ## surfing-secure.pcap. Tutustu siihen pintapuolisesti ja kuvaile, millainen kaappaus on kyseessä. Tässä siis vain lyhyesti ja yleisellä tasolla. Voit esimerkiksi vilkaista, montako konetta näkyy, mitä protokollia pistää silmään. Määrästä voit arvioida esimerkiksi pakettien lukumäärää, kaappauksen kokoa ja kestoa.

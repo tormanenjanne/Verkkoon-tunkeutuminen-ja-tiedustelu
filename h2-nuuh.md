@@ -1,4 +1,4 @@
-# h2 Lempiväri: violetti
+# h2 nuuh
 
 Koneen tiedot:
 - Näytönohjain: AMD Radeon RX 6500M

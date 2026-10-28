@@ -68,6 +68,32 @@ Protokollia joita tässä sieppauksessa näkyy on muun muassa: DNS,QUIC,TCP,TLS 
 
 **Punaisella** näkyy pakettien kokonaismäärä: 283. **Keltaisella** kestoa, joka on 7 sekuntia ja **Vihreällä** Kaappauksen koko on: 126kb
 
+##  Mitä selainta käyttäjä käyttää?
+
+##  Minkä merkkinen verkkokortti käyttäjällä on?
+
+Selvittämällä Wiresharkista ensimmäiseksi meidän kohde mac-osoite linkki kerroksesta. Huomaamme, että osoite saadaan selville, mutta tässä tapauksessa Wireshark ei näytä valmistajaa.
+
+<img width="1061" height="667" alt="kuva" src="https://github.com/user-attachments/assets/0ab87db5-35c0-4d32-80a2-276fd75c8a7c" />
+
+Mac-address lookupista löytyi tieto, joka viittaa joko Realtekin verkkokorttiin.
+
+<img width="955" height="489" alt="kuva" src="https://github.com/user-attachments/assets/5423d8b9-61b0-4129-aa91-89358d54e1cc" />
+
+
+## Millä weppipalvelimella käyttäjä on surffaillut?
+
+Kirjottamalla Käyttäjä on surffaillut muun muassa: google.com, terokarvinen.com, goathunter.com ja gc.zgo.at. Tiedot löytyivät `info` kohdasta.
+
+<img width="1871" height="385" alt="kuva" src="https://github.com/user-attachments/assets/fa83dfe9-d5b5-4752-8de2-f4f5740ca46c" />
+
+## Analyysi. Sieppaa pieni määrä omaa liikennettäsi. Analysoi se, eli selitä mahdollisimman perusteellisesti, mitä tapahtuu.
+
+
+
+
+
+
 
 
 

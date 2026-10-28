@@ -52,9 +52,30 @@ Lopuksi vielä testasin, että saan siepattua liikennettä. Avasin Firefoxin, ja
 - Keltainen laatikko: TCP/IP kerroksen transport kerros, joka lähettää paketteja joko TCP ja UDP protokollan välityksellä. TCP on luotettavampi kuin UDP, ja tässä data saapuu järjestyksessä, ja . TCP toimii muun muassa sähköpostien lähetyksessä. UDP-protokolla voi tiputtaa paketteja, ja se ei ole niin varma kuin TCP. UDP-protokollaa käytetään muun muassa pelaamisessa tai striimaamisessa.
 - Vihreä laatikko: TCP/IP kerroksen application kerros, jossa toimii muun muassa verkkoselaimet, sähköpostiohjelmat sekä tiedostojen jakamistyökalut. Protokollia tähän kuuluu muun muassa: HTTP, FTP,SMTP ja DNS.
 
+## surfing-secure.pcap. Tutustu siihen pintapuolisesti ja kuvaile, millainen kaappaus on kyseessä. Tässä siis vain lyhyesti ja yleisellä tasolla. Voit esimerkiksi vilkaista, montako konetta näkyy, mitä protokollia pistää silmään. Määrästä voit arvioida esimerkiksi pakettien lukumäärää, kaappauksen kokoa ja kestoa.
+
+Kaappauksessa huomataan, että käyttäjä on vieraillut muun muassa Googlessa, terokarvinen.com ja lopuksi vielä Goatcounter (tämä on avoimen lähdekoodin web-analytiikkatyökalu).
+
+tutkimalla lisää tätä surfing-secure.pcap kaappausta, klikkaamalla ylhäältä `statistics` ja alasvetovalikosta `endpoints` näemme että mac-osoitteita on 2, ja IPv4-osoitteita 7.
+
+<img width="836" height="168" alt="kuva" src="https://github.com/user-attachments/assets/a6af3c6a-75dd-41e6-82b6-e06430590c6d" />
+
+Protokollia joita tässä sieppauksessa näkyy on muun muassa: DNS,QUIC,TCP,TLS ja ARP. Ylhäällä valikossa kohdassa klikkaamalla `Statistics` ja valikosta `Capture file properties` pääsemme näkemään pakettien lukumäärää, kaappauksen kokoa sekä kestoa.
+
+<img width="913" height="765" alt="kuva" src="https://github.com/user-attachments/assets/6bf6e4fd-3eaf-4f49-9743-586a46475a11" />
+
+
+
+**Punaisella** näkyy pakettien kokonaismäärä: 283. **Keltaisella** kestoa, joka on 7 sekuntia ja **Vihreällä** Kaappauksen koko on: 126kb
+
+
+
+
+
 
   
 ## Lähteet
+- Luettavissa: https://analytics-alternatives.com/goatcounter-review-2026/. Luettu 28.10.2026.
 - GeekForGeeks 2026. TCP/IP Model. Luettavissa: https://www.geeksforgeeks.org/computer-networks/tcp-ip-model/. Luettu: 27.10.2026.
 - Karvinen 2025. Wireshark - Getting started. Luettavissa: https://terokarvinen.com/wireshark-getting-started/. Luettu: 27.10.2026.
 - Karvinen 2025. Network Interface Names on Linux: Luettavissa: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/#tehtavanannot. Luettu: 27.10.2026.

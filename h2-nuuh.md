@@ -106,7 +106,7 @@ Pingasin terminaalissa Googlen nimipalvelimeen `ping 8.8.8.8`, ja analysoidaan t
 
 ## Ajankäyttö
 
--Käytin 27.10 1.5h raportin työstämiseen sekä 28.10 yhteensä noin 4-5h raportin työstämiseen ja tehtävien tekemiseen (Verkkokortti tehtävään meni yllättävän paljon aikaa...) 
+Käytin 27.10 1.5h raportin työstämiseen sekä 28.10 yhteensä noin 4-5h raportin työstämiseen ja tehtävien tekemiseen (Verkkokortti tehtävään meni yllättävän paljon aikaa...) 
   
 ## Lähteet
 - GeekForGeeks 2026. TCP/IP Model. Luettavissa: https://www.geeksforgeeks.org/computer-networks/tcp-ip-model/. Luettu: 27.10.2026.

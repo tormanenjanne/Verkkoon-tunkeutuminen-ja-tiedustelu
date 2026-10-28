@@ -74,7 +74,7 @@ Selvittämällä Wiresharkista ensimmäiseksi meidän kohde mac-osoite linkki ke
 
 <img width="1061" height="667" alt="kuva" src="https://github.com/user-attachments/assets/0ab87db5-35c0-4d32-80a2-276fd75c8a7c" />
 
-Mac-address lookupista löytyi tieto, joka viittaa joko Realtekin verkkokorttiin.
+Mac-address lookupista löytyi tieto, joka viittaa joko Realtekin tai UpTech verkkokorttiin, tämä nyt jäi vähän auki kumpi se on...
 
 <img width="955" height="489" alt="kuva" src="https://github.com/user-attachments/assets/5423d8b9-61b0-4129-aa91-89358d54e1cc" />
 

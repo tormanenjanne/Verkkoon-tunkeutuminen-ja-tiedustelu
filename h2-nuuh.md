@@ -83,7 +83,7 @@ Mac-address lookupista löytyi tieto, joka viittaa joko Realtekin verkkokorttiin
 
 ## Millä weppipalvelimella käyttäjä on surffaillut?
 
-Kirjottamalla Käyttäjä on surffaillut muun muassa: google.com, terokarvinen.com, goathunter.com ja gc.zgo.at. Tiedot löytyivät `info` kohdasta.
+Kirjottamalla filtteriin `dns` huomaamme että, käyttäjä on surffaillut muun muassa: google.com, terokarvinen.com, goathunter.com ja gc.zgo.at. Tiedot löytyivät `info` kohdasta.
 
 <img width="1871" height="385" alt="kuva" src="https://github.com/user-attachments/assets/fa83dfe9-d5b5-4752-8de2-f4f5740ca46c" />
 

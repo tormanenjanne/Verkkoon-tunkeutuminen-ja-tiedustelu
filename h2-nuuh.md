@@ -68,8 +68,6 @@ Protokollia joita tässä sieppauksessa näkyy on muun muassa: DNS,QUIC,TCP,TLS 
 
 **Punaisella** näkyy pakettien kokonaismäärä: 283. **Keltaisella** kestoa, joka on 7 sekuntia ja **Vihreällä** Kaappauksen koko on: 126kb
 
-##  Mitä selainta käyttäjä käyttää?
-
 ##  Minkä merkkinen verkkokortti käyttäjällä on?
 
 Selvittämällä Wiresharkista ensimmäiseksi meidän kohde mac-osoite linkki kerroksesta. Huomaamme, että osoite saadaan selville, mutta tässä tapauksessa Wireshark ei näytä valmistajaa.
@@ -97,13 +95,17 @@ Pingasin terminaalissa Googlen nimipalvelimeen `ping 8.8.8.8`, ja analysoidaan t
 ### Paketti 1
 - Lähde ip on `10.0.2.15` ja kohde `8.8.8.8`.
 - Protokolla on ICMP, joka toimii internet kerroksessa.
-- Verkkokortti on `PCSSystemtec_93:06:f9`. 
+- Verkkokortti on `PCSSystemtec`. 
 - Tässä lähetetään `ICMP echo request` pyyntö Googlen nimipalvelimeen `8.8.8.8`.
 - Ensimmäinen paketti on lähtenyt `2026-10-28 11:12:35` ja viimeinen `2026-10-28 11:12:42`, kesto on ollut 7 sekuntia.
 ### Paketti 2
 - Lähde ip on `8.8.8.8` ja kohde `10.0.2.15`.
 - Sama protokolla kuin ensimmäisessä
 - Tässä taas vastataan ensimmäisen paketin kyselyyn `ICMP echo reply` viestillä, että paketti on tullut perille.
+
+## Ajankäyttö
+
+-Käytin 27.10 1.5h raportin työstämiseen sekä 28.10 yhteensä noin 4-5h raportin työstämiseen ja tehtävien tekemiseen (Verkkokortti tehtävään meni yllättävän paljon aikaa...) 
   
 ## Lähteet
 - Luettavissa: https://analytics-alternatives.com/goatcounter-review-2026/. Luettu 28.10.2026.

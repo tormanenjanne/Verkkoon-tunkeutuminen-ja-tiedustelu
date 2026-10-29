@@ -109,9 +109,10 @@ Pingasin terminaalissa Googlen nimipalvelimeen `ping 8.8.8.8`, ja analysoidaan t
 Käytin 27.10 1.5h raportin työstämiseen sekä 28.10 yhteensä noin 4-5h raportin työstämiseen ja tehtävien tekemiseen (Verkkokortti tehtävään meni yllättävän paljon aikaa...) 
   
 ## Lähteet
-- ashee sa. Common mac address prefix/oui. Luettavissa: https://gist.github.com/ashee/9241ab6281e6f4d1ef9b. Luettu: 19.10.2026.
+- Ashee sa. Common mac address prefix/oui. Luettavissa: https://gist.github.com/ashee/9241ab6281e6f4d1ef9b. Luettu: 19.10.2026.
 - Giang 2025. H1 Sniff. Luettavissa: https://github.com/gianglex/Courses/blob/6e74794c2e27752698f9bff0455a927843d9f934/Verkkoon-Tunkeutuminen-ja-Tiedustelu/h1-sniff.md#f-mit%C3%A4-selainta-k%C3%A4ytt%C3%A4j%C3%A4-k%C3%A4ytt%C3%A4%C3%A4. Luettu: 28.10.2026.
 - GeekForGeeks 2026. TCP/IP Model. Luettavissa: https://www.geeksforgeeks.org/computer-networks/tcp-ip-model/. Luettu: 27.10.2026.
+- Goatcounter 2026. Easy web analytics. No tracking of personal data. Luettavissa: https://www.goatcounter.com/. Luettu: 28.10.2026.
 - Hackerghost 2026. Wireshark Display Filters: 25 Essential Filters for Beginners. luettavissa: https://hackersghost.com/wireshark-display-filters/. luettu: 28.10.2026.
 - Karvinen 2025. Wireshark - Getting started. Luettavissa: https://terokarvinen.com/wireshark-getting-started/. Luettu: 27.10.2026.
 - Karvinen 2025. Network Interface Names on Linux: Luettavissa: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/#tehtavanannot. Luettu: 27.10.2026.

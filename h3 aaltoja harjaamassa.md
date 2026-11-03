@@ -32,11 +32,12 @@ Kävin lataamassa tiedoston Tero Karvisen sivustoilta, ja tämän tehtävänanno
 
 
 - Näytteitä on ainakin yhteensä 12 kappaletta.
-- Time: Näyttää milloin laite on reagoinut johonkin triggeriin.
+- Time: Näyttää milloin signaaliin ollaan havaittu.
 - Model: KlikAanKlikUit-Switch, nexa security ja klikaanklikuit-Switch (nämä ovat eri laitteita, joihin ollaan saatu yhteys)
 - Channel: kanava 3, jota ollaan käytetty
 - id: Prove security ja klikaanklikuit-Switch on sama id-numero. **Prove-securityllä on sama id, mutta edessä on housecode id:n sijaan**
 - State: näyttää off.
+- Group call: 0, ei lähetä muille laitteille tietoa tästä.
 
 Selvitin ensimmäiseksi Googlesta mitä nämä yritykset ovat, ja mitä ne tekevät.( Yritykset: Proove-security, klikaanklikuit ja Nexa-scurity). klikaanklikuit on yritys, joka tekee erilaisia älylaitteita muun muassa ip-kameroita ja kytkimiä, joilla voidaan valvoa esimerkiksi omaa kotia (esimerkissä on house code: 8785315). Proove-security valmistaa myös näitä ip-kameroita, ja monia muita erilaisia laitteita viimeiseksi Nexa-Security valmistaa ilmeisesti myös jotain pistorasioita? Mahdollisesti tässä on laitettu kytkimellä kodin neljä eri turvalaitetta pois päältä (Huomaamme, että klikaanklikuit on painettu command --> off, joten Proove-security ja Nexa-security menee tilaan off state --> off). (Home-Assistant 2026; klikaanklikuit 2026; prooveglobal 2026) 
 

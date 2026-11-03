@@ -52,7 +52,7 @@ Lopputuloksena sain näytteen auki muutettuaan urh version rtl_443 yhteensopivaa
 
 <img width="717" height="345" alt="kuva" src="https://github.com/user-attachments/assets/7836d228-4030-494f-82fc-5c8fef587ee4" />
 
-Tiedosto näyttää samalta kuin edellisen tehtävän näyte, joten analysointi löytyy edellisestä kohdasta c.
+Tiedosto näyttää samalta kuin edellisen tehtävän näyte, joten analysointi löytyy edellisestä kohdasta c. (Nurminen 2025 ;Karvinen 2026)
 
 
 # Lähteet
@@ -61,6 +61,7 @@ Tiedosto näyttää samalta kuin edellisen tehtävän näyte, joten analysointi 
 - Karvinen 2026. h3 Aaltoja harjaamassa. Luettavissa: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/. Luettu: 3.11.2026.
 - klikaanklikuit 2026. You have a smart house right in your fingers. Luettavissa: https://klikaanklikuit.nl/over-klikaanklikuit/. Luettu: 3.11.2026.
 - Kornelius 2022. Decode 433.92 MHz weather station data. Luettavissa: https://www.onetransistor.eu/2022/01/decode-433mhz-ask-signal.html. Luettu: 3.11.2026.
+- Nurminen 2025. h3 aaltoja harjaamassa: Luettavissa: https://github.com/nurminenkasper/Verkkoon-tunkeutuminen-ja-tiedustelu/blob/main/h3/h3-Aaltoja-harjaamassa.md. Luettu: 3.11.2026.
 - prooveglobal 2026. For home and office vällehti. Luettavissa: https://prooveglobal.com/. Luettu: 3.11.2026. 
 
 

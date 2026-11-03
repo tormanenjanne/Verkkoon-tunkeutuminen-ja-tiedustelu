@@ -41,6 +41,18 @@ Kävin lataamassa tiedoston Tero Karvisen sivustoilta, ja tämän tehtävänanno
 
 Selvitin ensimmäiseksi Googlesta mitä nämä yritykset ovat, ja mitä ne tekevät.( Yritykset: Proove-security, klikaanklikuit ja Nexa-scurity). klikaanklikuit on yritys, joka tekee erilaisia älylaitteita muun muassa ip-kameroita ja kytkimiä, joilla voidaan valvoa esimerkiksi omaa kotia (esimerkissä on house code: 8785315). Proove-security valmistaa myös näitä ip-kameroita, ja monia muita erilaisia laitteita viimeiseksi Nexa-Security valmistaa ilmeisesti myös jotain pistorasioita? Mahdollisesti tässä on laitettu kytkimellä kodin neljä eri turvalaitetta pois päältä (Huomaamme, että klikaanklikuit on painettu command --> off, joten Proove-security ja Nexa-security menee tilaan off state --> off). (Home-Assistant 2026; klikaanklikuit 2026; prooveglobal 2026) 
 
+## d) Too complex 16? Olet nauhoittanut näytteen 'urh' -ohjelmalla .complex16s-muodossa. Muunna näyte rtl_433-yhteensopivaan muotoon ja analysoi se.
+
+Hyödynsin tässä tehtävässä teron ohjeita sekä Nurmisen githubia. Latasin tiedoston Teron nettisivuilta, ja muunsin tämän jälkeen komentoa `mv Recorded-HackRF-20250411_183354-433_92MHz-2MSps-2MHz.complex16s foo_433.92M_2000k.cs8`, jotta sain tiedoston nimen muuttumaan (complex16 --> cs8). Teron ohjeistuksessa oli, että radiotaajuus pitää olla oikea sekä näytteenotto taajuus myös, erottimena toimii alaviiva.
+
+
+<img width="723" height="39" alt="kuva" src="https://github.com/user-attachments/assets/0d22a48e-07b7-4612-94f1-7b7923317577" />
+
+Lopputuloksena sain näytteen auki muutettuaan urh version rtl_443 yhteensopivaan muotoon.
+
+<img width="717" height="345" alt="kuva" src="https://github.com/user-attachments/assets/7836d228-4030-494f-82fc-5c8fef587ee4" />
+
+Tiedosto näyttää samalta kuin edellisen tehtävän näyte, joten analysointi löytyy edellisestä kohdasta c.
 
 
 # Lähteet

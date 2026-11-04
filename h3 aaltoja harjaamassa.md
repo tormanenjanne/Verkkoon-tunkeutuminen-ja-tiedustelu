@@ -62,6 +62,23 @@ Tein tämän myös tunnin aikana, ja käytin tässä Teron ohjeita tämän teht�
 ```markdown 
 sudo apt-get -y install pipx
 ```
+Seurvaaksi asensin Pipx pakentinhallintaohjelmalla Urh ohjelman komennolla
+```markdown 
+pipx install urh
+```
+Muistaakseni tässä tuli virheilmoitus, että path pitää vielä päivittää, joten päivitin sen vielä samalla.
+```markdown 
+pipx ensurepath
+```
+Lopuksi tuli ilmoitus että päivitys on onnistunut, ja käynnistämällä uudelleen terminaalin sekä ajamalla komennon `urh` saadaan ohjelma käyntiin.
+
+<img width="941" height="646" alt="kuva" src="https://github.com/user-attachments/assets/6ed4dc84-4e89-4c49-9809-c8bb39f58a79" />
+
+
+
+
+
+
 
 
 

@@ -86,11 +86,14 @@ Ja sitten päästiin analysoimaan tätä näytettä.
 
 Näytteen pituuden sain selville, kun painoin `info` painiketta
 
-<img width="930" height="500" alt="kuva" src="https://github.com/user-attachments/assets/3ff72338-b2fa-454a-a777-7864dfd3c307" />
+<img width="949" height="501" alt="kuva" src="https://github.com/user-attachments/assets/3b3b894c-effc-41e3-a43b-0c3410392df9" />
+
 
 - Pituus: 5,49 sekuntia
-- Nauhoitettu: 4.12.2025 11:38:05 ** tässä huomioin milloin näyte on luotu ei se milloin minä olen ladannut tiedoston**
-- Taajuus: 2Mhz ** Päättelin tämän Teron vinkeistä tehtävän aiemassa osiossa, jossa piti muuttaa tiedosto rtl_433 yhteensopivaan muotoon, ja vinkki oli tämä "Tiedoston nimessä pitää olla oikea taajuus (center frequency) ja näytteenottotaajuus (sample rate)" **
+- Nauhoitettu: 4.12.2025 11:38:05 **tässä huomioin milloin näyte on luotu ei se milloin minä olen ladannut tiedoston**
+- Taajuus: 2Mhz **Päättelin tämän Teron vinkeistä tehtävän aiemassa osiossa, jossa piti muuttaa tiedosto rtl_433 yhteensopivaan muotoon, ja vinkki oli tämä "Tiedoston nimessä pitää olla oikea taajuus (center frequency) ja näytteenottotaajuus (sample rate)"**
+
+Näytteessä näkyy selkeästi, että kaukosäätimen valon on-nappia on painettu kolmesti, ja olettaen edellisiin tehtäviin, tämä on lähettänyt tiedon muille protokollille painahduksen yhteydessä. 
 
 
 

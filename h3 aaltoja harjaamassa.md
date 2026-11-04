@@ -59,7 +59,7 @@ Tiedosto näyttää samalta kuin edellisen tehtävän näyte, joten analysointi 
 ## e) Asenna URH
 
 Tein tämän myös tunnin aikana, ja käytin tässä Teron ohjeita tämän tehtävänannon vinkeistä. Aloitin tehtävän asentemalla ensimmäiseksi Pipx, joka on paketinhallintaohjelma myöskin, mutta se toimii Python pohjaisissa ohjelmistoissa käyttäen erillistä ympäristöä. (Pipx 2026)
-```sudo apt-get -y install pipx -->```
+```markdown sudo apt-get -y install pipx ```
 
 
 

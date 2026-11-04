@@ -29,6 +29,8 @@ Kävin lataamassa tiedoston Tero Karvisen sivustoilta, ja tämän tehtävänanno
 
 <img width="937" height="339" alt="kuva" src="https://github.com/user-attachments/assets/95b0ec50-fe05-44e2-b55f-6e6701ba5dd1" />
 
+Kuvassa näkyy kolme eri näytettä, mutta todellisuudessa tämä sama kaava toistuu neljä kertaa. Eli lopputuloksena tässä tiedostossa on yhteensä 12 näytettä.
+
 
 
 - Näytteitä on ainakin yhteensä 12 kappaletta.

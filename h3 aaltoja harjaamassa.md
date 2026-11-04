@@ -25,7 +25,7 @@ Lopuksi testasin toimivuutta komennolla `./rtl_433' `, joka ilmoitti työkalun t
 
 ## c) Automaattinen analyysi, mitä tapahtuu ja mitä tunnisteita löysin
 
-Kävin lataamassa tiedoston Tero Karvisen sivustoilta, ja tämän tehtävänannon kohdasta c. Siirsin tämän työpöydälle, ja komennolla `rtl_433 -r Converted_433.92M_2000k.cs8` sain avattua tämän tiedoston.
+Kävin lataamassa tiedoston Tero Karvisen sivustoilta, ja tämän tehtävänannon kohdasta c. Siirsin tämän työpöydälle, ja komennolla `rtl_433 -r Converted_433.92M_2000k.cs8` sain avattua tämän tiedoston. -r komento lukee tässä kyseisen tiedoston. (rtl_433 man)
 
 <img width="937" height="339" alt="kuva" src="https://github.com/user-attachments/assets/95b0ec50-fe05-44e2-b55f-6e6701ba5dd1" />
 

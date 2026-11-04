@@ -104,6 +104,12 @@ Muutettuani signal view muotoon Demodulated, huomaamme maalaamalla 0 bitin, saam
 
 <img width="943" height="440" alt="kuva" src="https://github.com/user-attachments/assets/db297490-d2d3-4210-a89a-3bb0f6113ae8" />
 
+Viimeisenä huomaamme, että kun muutamme kohdan datan muodon hexadesimaaleiksi, jokainen paketti on yhtä pitkä.
+
+<img width="943" height="455" alt="kuva" src="https://github.com/user-attachments/assets/1e62f091-a57c-4fda-8005-92e177da7646" />
+Ensimmäinen paketti
+<img width="927" height="502" alt="kuva" src="https://github.com/user-attachments/assets/70df8cc1-09e2-4cfd-9b2e-d0a6d6a31540" />
+Toinen paketti
 
 Tätä voidaan verrata kameran suljinaikaan, joka kertoo paljonko valoa pääsee filmille sekä kennnoon aukon olleessaan auki. Suljinaika nopeatempoisissa kuvissa esimerkiksi lintukuvaukissa tai nopeatempoisssa urheilusuorituksissa on 1/2000 sekuntia eli 500 mikrosekuntia. (Rajala 2026)
 

@@ -74,6 +74,24 @@ Lopuksi tuli ilmoitus että päivitys on onnistunut, ja käynnistämällä uudel
 
 <img width="941" height="646" alt="kuva" src="https://github.com/user-attachments/assets/6ed4dc84-4e89-4c49-9809-c8bb39f58a79" />
 
+## f)  1-on-on-on-HackRF-20250412_113805-433_912MHz-2MSps-2MHz.complex16s näytteen analysointi urh:lla: kuinka pitkä, millä taajuudella, milloin nauhoitettu ja miltä näyttää silmämääräisesti
+
+Avasin tämän näytteen urh:lla file --> open --> ja sitten tämä kyseinen tiedosto, jonka latasin uudelleen komennolla
+
+```markdown 
+wget https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/samples/1-on-on-on-HackRF-20250412_113805-433_912MHz-2MSps-2MHz.complex16s
+```
+
+Ja sitten päästiin analysoimaan tätä näytettä.
+
+Näytteen pituuden sain selville, kun painoin `info` painiketta
+
+<img width="930" height="500" alt="kuva" src="https://github.com/user-attachments/assets/3ff72338-b2fa-454a-a777-7864dfd3c307" />
+
+- Pituus: 5,49 sekuntia
+- Nauhoitettu: 4.12.2025 11:38:05 ** tässä huomioin milloin näyte on luotu ei se milloin minä olen ladannut tiedoston**
+- Taajuus: 2Mhz ** Päättelin tämän Teron vinkeistä tehtävän aiemassa osiossa, jossa piti muuttaa tiedosto rtl_433 yhteensopivaan muotoon, ja vinkki oli tämä "Tiedoston nimessä pitää olla oikea taajuus (center frequency) ja näytteenottotaajuus (sample rate)" **
+
 
 
 

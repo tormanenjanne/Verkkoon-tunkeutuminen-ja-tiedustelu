@@ -105,7 +105,7 @@ Muutettuani signal view muotoon Demodulated, huomaamme maalaamalla 0 bitin, saam
 <img width="943" height="440" alt="kuva" src="https://github.com/user-attachments/assets/db297490-d2d3-4210-a89a-3bb0f6113ae8" />
 
 
-Tässä näytteessä aikaa voidaan verrata kameran suljinaikaan eli valoitusaika, joka kertoo paljonko valoa pääsee filmille sekä kameran kennnoon aukon olleessaan auki. Suljinaika nopeatempoisissa kuvissa esimerkiksi lintukuvaukissa tai nopeatempoisssa urheilusuorituksissa on 1/2000 sekuntia eli 500 mikrosekuntia. (Rajala 2026)
+Tässä näytteessä aikaa voidaan verrata kameran suljinaikaan eli valotusaika, joka määrittää kauanko aukko pysyy auki ja päästää valoa kameran kennoon tai filmille. Valotusaika esimerkiksi lintukuvaukissa tai nopeatempoisssa urheilusuorituksissa on 1/2000 sekuntia (ilmoitetaan yleensä murtolukuna) eli 500 mikrosekuntia. (Rajala 2026)
 
 ## sdr++
 

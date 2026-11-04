@@ -86,19 +86,26 @@ Ja sitten päästiin analysoimaan tätä näytettä.
 
 Näytteen pituuden sain selville, kun painoin `info` painiketta
 
-<img width="949" height="501" alt="kuva" src="https://github.com/user-attachments/assets/3b3b894c-effc-41e3-a43b-0c3410392df9" />
+<img width="934" height="484" alt="kuva" src="https://github.com/user-attachments/assets/611bb41f-41d2-4d93-a263-d9ca7a839be1" />
 
 
 - Pituus: 5,49 sekuntia
-- Nauhoitettu: 4.12.2025 11:38:05 **tässä huomioin milloin näyte on luotu ei se milloin minä olen ladannut tiedoston**
-- Taajuus: 2Mhz **Päättelin tämän Teron vinkeistä tehtävän aiemassa osiossa, jossa piti muuttaa tiedosto rtl_433 yhteensopivaan muotoon, ja vinkki oli tämä "Tiedoston nimessä pitää olla oikea taajuus (center frequency) ja näytteenottotaajuus (sample rate)"**
+- Nauhoitettu: 12.4.2025 11:38:05 **tässä huomioin milloin näyte on luotu ei se milloin minä olen ladannut tiedoston.**
+- Taajuus: 433,912 MHz **Päättelin tämän Teron vinkeistä tehtävän aiemassa osiossa, jossa piti muuttaa tiedosto rtl_433 yhteensopivaan muotoon, ja vinkki oli tämä "Tiedoston nimessä pitää olla oikea taajuus (center frequency) ja näytteenottotaajuus (sample rate)"**
 
-Näytteessä näkyy selkeästi, että kaukosäätimen valon on-nappia on painettu kolmesti, ja olettaen edellisiin tehtäviin, tämä on lähettänyt tiedon muille protokollille painahduksen yhteydessä. 
+Näytteessä näkyy selkeästi, että kaukosäätimen valon on-nappia on painettu kolmesti, ja olettaen edellisiin tehtäviin, tämä on lähettänyt tiedon muille laitteille tästä triggeristä.
+
+## g) emoduloi signaali niin, että saat raakabittejä. Mikä on oikea modulaatio? Miten pitkä yksi raakabitti on ajassa? Kuvaile tätä aikaa vertaamalla sitä johonkin.
+
+Viitaten Hubmartin videoon, huomaamme hänen käyttävän modulaatiota **ASK (Amplitude Shift keying)**, joten käytin itsekkin tätä. Maalamalla yhden raakabitin tästä näytteestä huomaamme, että aika on 522,00 mikrosekuntia.
+<img width="902" height="374" alt="kuva" src="https://github.com/user-attachments/assets/e7b246d2-1aa3-416f-aacc-851dacfeebb2" />
+
+Muutettuani signal view muotoon Demodulated, huomaamme maalaamalla 0 bitin, saamme melkein saman tuloksen kuin samples/symbols kohdan arvon.
+
+<img width="943" height="440" alt="kuva" src="https://github.com/user-attachments/assets/db297490-d2d3-4210-a89a-3bb0f6113ae8" />
 
 
-
-
-
+Tätä voidaan verrata kameran suljinaikaan, joka kertoo paljonko valoa pääsee filmille sekä kennoon aukon olleessaan auki. Nopeatempoisissa kuvissa esimerkiksi lintukuvaukissa tai nopeatempoisssa urheilusuorituksissa. Suljinaika ilmoitetaan murtolukuina joka on tässä tapauksessa 1/2000 eli 500 mikrosekuntia. (Rajala 2026)
 
 
 
@@ -112,5 +119,6 @@ Näytteessä näkyy selkeästi, että kaukosäätimen valon on-nappia on painett
 - Nurminen 2025. h3 aaltoja harjaamassa: Luettavissa: https://github.com/nurminenkasper/Verkkoon-tunkeutuminen-ja-tiedustelu/blob/main/h3/h3-Aaltoja-harjaamassa.md. Luettu: 3.11.2026.
 - prooveglobal 2026. For home and office vällehti. Luettavissa: https://prooveglobal.com/. Luettu: 3.11.2026.
 - Pipx 2026. Pipx. Luettavissa: https://pipx.pypa.io/stable/. Luettu: 4.11.2026.
+- Rajala 2026. Valokuvauksen perusteet – Suljinaika.Luettavissa: https://asiakaspalvelu.rajalacamera.fi/hc/fi/articles/7490323272209-Valokuvauksen-perusteet-Suljinaika. Luettu: 4.11.2026
 
 

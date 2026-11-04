@@ -56,6 +56,12 @@ Lopputuloksena sain näytteen auki muutettuaan urh version rtl_443 yhteensopivaa
 
 Tiedosto näyttää samalta kuin edellisen tehtävän näyte, joten analysointi löytyy edellisestä kohdasta c. (Nurminen 2025 ;Karvinen 2026)
 
+## e) Asenna URH
+
+Tein tämän myös tunnin aikana, ja käytin tässä Teron ohjeita tämän tehtävänannon vinkeistä. Aloitin tehtävän asentemalla ensimmäiseksi Pipx, joka on paketinhallintaohjelma myöskin, mutta se toimii Python pohjaisissa ohjelmistoissa käyttäen erillistä ympäristöä. (Pipx 2026)
+```markdown
+<!-- sudo apt-get -y install pipx -->
+```
 
 # Lähteet
 - Home Assistant 2026. KlikAanKlikUit. Luettavissa: https://www.home-assistant.io/integrations/klik_aan_klik_uit/. Luettu: 3.11.2026.
@@ -64,6 +70,7 @@ Tiedosto näyttää samalta kuin edellisen tehtävän näyte, joten analysointi 
 - klikaanklikuit 2026. You have a smart house right in your fingers. Luettavissa: https://klikaanklikuit.nl/over-klikaanklikuit/. Luettu: 3.11.2026.
 - Kornelius 2022. Decode 433.92 MHz weather station data. Luettavissa: https://www.onetransistor.eu/2022/01/decode-433mhz-ask-signal.html. Luettu: 3.11.2026.
 - Nurminen 2025. h3 aaltoja harjaamassa: Luettavissa: https://github.com/nurminenkasper/Verkkoon-tunkeutuminen-ja-tiedustelu/blob/main/h3/h3-Aaltoja-harjaamassa.md. Luettu: 3.11.2026.
-- prooveglobal 2026. For home and office vällehti. Luettavissa: https://prooveglobal.com/. Luettu: 3.11.2026. 
+- prooveglobal 2026. For home and office vällehti. Luettavissa: https://prooveglobal.com/. Luettu: 3.11.2026.
+- Pipx 2026. Pipx. Luettavissa: https://pipx.pypa.io/stable/. Luettu: 4.11.2026.
 
 

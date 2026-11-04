@@ -70,7 +70,7 @@ Muistaakseni tässä tuli virheilmoitus, että path pitää vielä päivittää,
 ```markdown 
 pipx ensurepath
 ```
-Lopuksi tuli ilmoitus että päivitys on onnistunut, ja käynnistämällä uudelleen terminaalin sekä ajamalla komennon `urh` saadaan ohjelma käyntiin.
+Lopuksi tuli ilmoitus että päivitys on onnistunut, ja käynnistämällä uudelleen terminaalin sekä ajamalla komennon `urh` saadaan ohjelma käyntiin. (Karvinen 2026)
 
 <img width="941" height="646" alt="kuva" src="https://github.com/user-attachments/assets/6ed4dc84-4e89-4c49-9809-c8bb39f58a79" />
 

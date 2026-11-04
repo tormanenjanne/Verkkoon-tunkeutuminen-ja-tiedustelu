@@ -110,7 +110,7 @@ Tässä näytteessä aikaa voidaan verrata kameran suljinaikaan eli valotusaika,
 ## sdr++
 
 Asensin ensimmäisenä AlexanderRouma:n Githubista oikean version ennen asennusta. Valitsin 
-`sdrpp_debian_trixie_aarch64.deb`. Tämän jälkeen ohjeiden mukaan asensin tämän komennolla `sudo apt install ./Downloads/sdrpp_debian_trixie_amd64.deb `. Lopuksi komennolla `sdrpp`, sain ohjelman auki.
+`sdrpp_debian_trixie_aarch64.deb`. Tämän jälkeen ohjeiden mukaan asensin tämän komennolla `sudo apt install ./Downloads/sdrpp_debian_trixie_amd64.deb `. Lopuksi komennolla `sdrpp`, sain ohjelman auki. (Rouma s.a)
 
 <img width="932" height="825" alt="kuva" src="https://github.com/user-attachments/assets/5b87283d-62f2-4f23-82bf-96cd1ce4f3ff" />
 
@@ -121,6 +121,7 @@ En saanut esimerkiksi edellisen tehtävän tiedostoa avattua tällä vaikka koit
 Käytin 3.11 muutaman tunnin tiivistystehtävään, sekä 4.11 varmaan yhteensä kuusi tuntia taukoineen. Eli yhteensä noin 8 tuntia meni tehtävän suorittamiseen.
 
 # Lähteet
+- AlexanderRouma s.a. SDRplusplus. Luettavissa: https://github.com/alexandrerouma/sdrplusplus. Luettu: 4.11.2026
 - Home Assistant 2026. KlikAanKlikUit. Luettavissa: https://www.home-assistant.io/integrations/klik_aan_klik_uit/. Luettu: 3.11.2026.
 - Hubmartin 18.1.2019. Universal Radio Hacker SDR Tutorial on 433 MHz radio plugs. Hubmartin. Katsottavissa: https://www.youtube.com/watch?v=sbqMqb6FVMY&t=199s. Katsottu: 3.11.2026.
 - Karvinen 2026. h3 Aaltoja harjaamassa. Luettavissa: https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/. Luettu: 3.11.2026.

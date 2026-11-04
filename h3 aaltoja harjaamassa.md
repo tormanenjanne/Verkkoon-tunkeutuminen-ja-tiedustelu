@@ -107,6 +107,16 @@ Muutettuani signal view muotoon Demodulated, huomaamme maalaamalla 0 bitin, saam
 
 Tätä voidaan verrata kameran suljinaikaan, joka kertoo paljonko valoa pääsee filmille sekä kennoon aukon olleessaan auki. Nopeatempoisissa kuvissa esimerkiksi lintukuvaukissa tai nopeatempoisssa urheilusuorituksissa. Suljinaika ilmoitetaan murtolukuina joka on tässä tapauksessa 1/2000 eli 500 mikrosekuntia. (Rajala 2026)
 
+## sdr++
+
+Asensin ensimmäisenä AlexanderRouma:n Githubista oikean version ennen asennusta. Valitsin 
+`sdrpp_debian_trixie_aarch64.deb`. Tämän jälkeen ohjeiden mukaan asensin tämän komennolla `sudo apt install ./Downloads/sdrpp_debian_trixie_amd64.deb `. Lopuksi komennolla `sdrpp`, sain ohjelman auki.
+
+<img width="932" height="825" alt="kuva" src="https://github.com/user-attachments/assets/5b87283d-62f2-4f23-82bf-96cd1ce4f3ff" />
+
+
+
+
 
 
 

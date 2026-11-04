@@ -1,6 +1,6 @@
 # h3 aaltoja harjaamassa
 
-## x)
+## x) Tiivistä
 
 ### Universal Radio Hacker
 
@@ -105,7 +105,7 @@ Muutettuani signal view muotoon Demodulated, huomaamme maalaamalla 0 bitin, saam
 <img width="943" height="440" alt="kuva" src="https://github.com/user-attachments/assets/db297490-d2d3-4210-a89a-3bb0f6113ae8" />
 
 
-Tätä voidaan verrata kameran suljinaikaan, joka kertoo paljonko valoa pääsee filmille sekä kennnoon aukon olleessaan auki. Suljinaika nopeatempoisissa kuvissa esimerkiksi lintukuvaukissa tai nopeatempoisssa urheilusuorituksissa on 1/2000 sekuntia eli 500 mikrosekuntia. (Rajala 2026)
+Tässä näytteessä aikaa voidaan verrata kameran suljinaikaan eli valoitusaika, joka kertoo paljonko valoa pääsee filmille sekä kameran kennnoon aukon olleessaan auki. Suljinaika nopeatempoisissa kuvissa esimerkiksi lintukuvaukissa tai nopeatempoisssa urheilusuorituksissa on 1/2000 sekuntia eli 500 mikrosekuntia. (Rajala 2026)
 
 ## sdr++
 
@@ -114,11 +114,11 @@ Asensin ensimmäisenä AlexanderRouma:n Githubista oikean version ennen asennust
 
 <img width="932" height="825" alt="kuva" src="https://github.com/user-attachments/assets/5b87283d-62f2-4f23-82bf-96cd1ce4f3ff" />
 
+En saanut esimerkiksi edellisen tehtävän tiedostoa avattua tällä vaikka koitin muuttaa tiedostomuotoa... joten jätin tämän tähän.
 
+## Ajankäyttö
 
-
-
-
+Käytin 3.11 muutaman tunnin tiivistystehtävään, sekä 4.11 varmaan yhteensä kuusi tuntia taukoineen. Eli yhteensä noin 8 tuntia meni tehtävän suorittamiseen.
 
 # Lähteet
 - Home Assistant 2026. KlikAanKlikUit. Luettavissa: https://www.home-assistant.io/integrations/klik_aan_klik_uit/. Luettu: 3.11.2026.

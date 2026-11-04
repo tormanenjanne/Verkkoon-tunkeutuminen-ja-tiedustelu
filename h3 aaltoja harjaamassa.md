@@ -29,17 +29,17 @@ Kävin lataamassa tiedoston Tero Karvisen sivustoilta, ja tämän tehtävänanno
 
 <img width="937" height="339" alt="kuva" src="https://github.com/user-attachments/assets/95b0ec50-fe05-44e2-b55f-6e6701ba5dd1" />
 
-Kuvassa näkyy kolme eri näytettä, mutta todellisuudessa tämä sama kaava toistuu neljä kertaa. Eli lopputuloksena tässä tiedostossa on yhteensä 12 näytettä.
+Kuvassa näkyy kolme eri tapahtumaa, mutta todellisuudessa tämä sama kaava toistuu neljä kertaa. Eli lopputuloksena tässä tiedostossa on yhteensä 12 tapahtumaa.
 
 
 
-- Näytteitä on ainakin yhteensä 12 kappaletta.
+- Tapahtumia on ainakin yhteensä 12 kappaletta.
 - Time: Näyttää milloin signaaliin ollaan havaittu.
 - Model: KlikAanKlikUit-Switch, nexa security ja klikaanklikuit-Switch (nämä ovat eri laitteita, joihin ollaan saatu yhteys)
 - Channel: kanava 3, jota ollaan käytetty
 - id: Prove security ja klikaanklikuit-Switch on sama id-numero. **Prove-securityllä on sama id, mutta edessä on housecode id:n sijaan**
-- State: näyttää off.
-- Group call: 0, ei lähetä muille laitteille tietoa tästä.
+- State: näyttää off, eli sulkee jonkun laitteen.
+- Group call: no, ei lähetä muille laitteille tietoa tästä.
 
 Selvitin ensimmäiseksi Googlesta mitä nämä yritykset ovat, ja mitä ne tekevät.( Yritykset: Proove-security, klikaanklikuit ja Nexa-scurity). klikaanklikuit on yritys, joka tekee erilaisia älylaitteita muun muassa ip-kameroita ja kytkimiä, joilla voidaan valvoa esimerkiksi omaa kotia (esimerkissä on house code: 8785315). Proove-security valmistaa myös näitä ip-kameroita, ja monia muita erilaisia laitteita. Viimeiseksi Nexa-Security valmistaa ilmeisesti myös jotain pistorasioita? Mahdollisesti tässä on laitettu kytkimellä kodin neljä eri turvalaitetta pois päältä (Huomaamme, että klikaanklikuit on painettu command --> off, joten Proove-security ja Nexa-security menee tilaan off state --> off). (Home-Assistant 2026; klikaanklikuit 2026; prooveglobal 2026) 
 
@@ -54,7 +54,7 @@ Lopputuloksena sain näytteen auki muutettuaan urh version rtl_443 yhteensopivaa
 
 <img width="717" height="345" alt="kuva" src="https://github.com/user-attachments/assets/7836d228-4030-494f-82fc-5c8fef587ee4" />
 
-Tiedosto näyttää samalta kuin edellisen tehtävän näyte, joten analysointi löytyy edellisestä kohdasta c. (Nurminen 2025 ;Karvinen 2026)
+Tiedosto näyttää samalta kuin edellisen tehtävän näyte, joten analysointi löytyy edellisestä kohdasta c. (Nurminen 2025 ; Karvinen 2026)
 
 ## e) Asenna URH
 

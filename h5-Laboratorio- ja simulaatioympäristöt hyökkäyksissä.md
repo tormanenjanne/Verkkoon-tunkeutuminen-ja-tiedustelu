@@ -36,11 +36,33 @@ Käynnistin h1 koneella sniff_icmp-py, ja pingasin tämän jälkeen h2 -> h1 kon
 <img width="516" height="141" alt="kuva" src="https://github.com/user-attachments/assets/7936b236-e4cd-4191-92cb-ec0c16afaa0e" />
 
 
-Seuraavaksi ajoin tiedoston spoof_icmp.py ja pyrin lähettämään h3 koneelta pingausta h1 koneelle siten, että h1 kone luulee, että pingaus tulee h2 koneelta.
+Seuraavaksi ajoin tiedoston spoof_icmp.py h3 koneella, ja pingasin h2 koneelta h1 koneelle. Skripti ilmeisesti kuunteli, ja muodosti väärennettyjä paketteja siten, että h3 kone olisi h1 kone. Tässä on kuva, jossa lokitiedoissa nähdään pingauksen menevän perille. En varmistanut tuliko pingaus todellisuudessa h1 koneelta vai h3.
 
 <img width="743" height="222" alt="kuva" src="https://github.com/user-attachments/assets/52f8d3c0-afb4-4f97-954a-9b8ce9084fff" />
 
 Rehellisesti tehtävä oli haastava, koska en saanut xtermiä toimimaan, ja jouduin hieman soveltamaa tehtävää tekoälyn avustuksella, jotta sain pingaukset sekä tiedostot toimimaan.
+
+### TCP Hijack
+
+Lähdin tekemään tehtävän pohjaa samanlailla kuin edellisessä tehtävässä, jotta saan testiympäristön auki
+
+- Seuraavaksi käynnistin h1 koneelle tcp_server.py
+- Sitten h2 koneelle käynnistin tcp_client.py
+- h3 koneelle laitoin tcp pakettien päälle sniff_tcp_session.py
+
+Tällä sniff_tcp_session komennolla pystyin katsomaan tcp liikennettä h1 ja h2 koneiden välillä. Tässä kuva, jossa näen koneiden liikenteen
+
+<img width="448" height="334" alt="kuva" src="https://github.com/user-attachments/assets/bdd30044-b6d8-4c24-b030-9b640d4a3bb1" />
+
+Seuraavaksi ajoin h3 koneella tcp_hijack.py, ja lähden tutkimaan onnistuiko hyökkäys. H1-konella ei näkynyt liikennettä, jossa olisi viesti "you are hacked". Eli siis en saanut hyökkäystä onnistumaan, vaikka pystyin kuunntelemaan h1- ja h2 koneiden välistä liikennettä.
+
+<img width="612" height="306" alt="kuva" src="https://github.com/user-attachments/assets/79598f28-ce25-49b6-afae-2df8d906783a" />
+
+
+Aikaisemmin huomasin, että pystyin h3-koneella tarkastelemaan h1- ja h2-koneiden välillä, koska minulla oli tcp_sniff_session.py tässä auki.
+
+<img width="349" height="259" alt="kuva" src="https://github.com/user-attachments/assets/936ca605-22f1-4b2a-a558-fc5e7ce5f11c" />
+
 
 
 

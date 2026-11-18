@@ -74,13 +74,14 @@ Aloitin tehtävän käynnistämällä verkko-ohjaimen, ja tämän jälkeen menin
 
 <img width="767" height="435" alt="kuva" src="https://github.com/user-attachments/assets/dd3afaf4-352d-4f40-89f3-28c8cf7a2c51" />
 
-Käytin hyökkäksen tekemiseen hping3 työkalua, jolla pystyttiin lähettämään paketteja esimerkiksi 1000 pakettia nopeasti, ja ruuhkauttamaan vastaanottava tietokone. Tallensin liikennettä tcpdumpilla. Ja lopuksi huomaamme, että paketteja tuli aivan valtava määrä, ja jouduin keskeyttämään ajon
+Käytin hyökkäksen tekemiseen hping3 työkalua, jolla pystyttiin lähettämään paketteja esimerkiksi 1000 pakettia nopeasti, ja ruuhkauttamaan vastaanottava tietokone. Tallensin liikennettä tcpdumpilla. Ja lopuksi huomaamme, että paketteja tuli aivan valtava määrä, ja jouduin keskeyttämään ajon. (sciencedirect 2025; Miessler 2026)
 
 <img width="614" height="418" alt="kuva" src="https://github.com/user-attachments/assets/01a9d8b8-91a0-43a9-8089-b5e4a20943da" />
 
+Komentoja minulla ei juurikaan näy tässä, koska oli hieman tässäkin haasteita saada tämä toimimaan, enkä saanut niitä poimittua jälkeenpäin. Tässä tehtävässä on hyödynnetty lähteitä sekä osittain tekoälyä auttamaan haastavissa tilaneissa.
 
 
-
+Hyökkäys toimi tässä siten, että kyselyitä lähetettiin aivan valtava määrä, ja saatiin ruuhkautettua toinen kone. Ilmeisesti kaikki paketit ovat jääneet tcp-handshakessa vain SYN viestin eli minun lähtettämät 1000 pakettia, sekä act viestiä ei tullut kertaakaan, joten yhteys on ruuhkautunut tämän takia.
 
 
 
@@ -88,7 +89,9 @@ Käytin hyökkäksen tekemiseen hping3 työkalua, jolla pystyttiin lähettämä�
 ## Lähteet
 
 - abnormal 2026. TCP Session Hijacking: How It Works and How to Detect It. Luettavissa: https://abnormal.ai/learning/tcp-session-hijacking. Luettu: 18.11.2026.
-- Geekforgeek 2026. TCP 3-Way Handshake Process. Luettavissa: https://www.geeksforgeeks.org/computer-networks/tcp-3-way-handshake-process/. Luettu: 18.11.2026
+- Geekforgeek 2026. TCP 3-Way Handshake Process. Luettavissa: https://www.geeksforgeeks.org/computer-networks/tcp-3-way-handshake-process/. Luettu: 18.11.2026.
+- Miessler, D. 2026. tcpdump Examples: A Tutorial with 150 Commands. Luettavissa: https://danielmiessler.com/blog/tcpdump. Luettu: 18.11.2026
+- sciencedirect 2025. SDN TCP-SYN Dataset: A dataset for TCP-SYN flood DDoS attack detection in software-defined networks. :luettavissa: https://www.sciencedirect.com/science/article/pii/S2352340925000460. Luettu: 18.11.2026.
 
 
 

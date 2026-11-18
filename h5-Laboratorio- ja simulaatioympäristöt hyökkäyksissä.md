@@ -74,8 +74,9 @@ Aloitin tehtävän käynnistämällä verkko-ohjaimen, ja tämän jälkeen menin
 
 <img width="767" height="435" alt="kuva" src="https://github.com/user-attachments/assets/dd3afaf4-352d-4f40-89f3-28c8cf7a2c51" />
 
-Käytin hyökkäksen tekemiseen hping3 työkalua, jolla pystyttiin lähettämään paketteja esimerkiksi 1000 pakettia nopeasti, ja ruuhkauttamaan vastaanottava tietokone. Suoritin 
+Käytin hyökkäksen tekemiseen hping3 työkalua, jolla pystyttiin lähettämään paketteja esimerkiksi 1000 pakettia nopeasti, ja ruuhkauttamaan vastaanottava tietokone. Tallensin liikennettä tcpdumpilla. Ja lopuksi huomaamme, että paketteja tuli aivan valtava määrä, ja jouduin keskeyttämään ajon
 
+<img width="614" height="418" alt="kuva" src="https://github.com/user-attachments/assets/01a9d8b8-91a0-43a9-8089-b5e4a20943da" />
 
 
 

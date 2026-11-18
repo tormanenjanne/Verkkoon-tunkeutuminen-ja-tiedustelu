@@ -74,6 +74,13 @@ Aloitin tehtävän käynnistämällä verkko-ohjaimen, ja tämän jälkeen menin
 
 <img width="767" height="435" alt="kuva" src="https://github.com/user-attachments/assets/dd3afaf4-352d-4f40-89f3-28c8cf7a2c51" />
 
+Käytin hyökkäksen tekemiseen hping3 työkalua, jolla pystyttiin lähettämään paketteja esimerkiksi 1000 pakettia nopeasti, ja ruuhkauttamaan vastaanottava tietokone. Suoritin 
+
+
+
+
+
+
 
 
 

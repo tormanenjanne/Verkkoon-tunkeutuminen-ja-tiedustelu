@@ -81,7 +81,7 @@ Käytin hyökkäksen tekemiseen hping3 työkalua, jolla pystyttiin lähettämä�
 Komentoja minulla ei juurikaan näy tässä, koska oli hieman tässäkin haasteita saada tämä toimimaan, enkä saanut niitä poimittua jälkeenpäin. Tässä tehtävässä on hyödynnetty lähteitä sekä osittain tekoälyä auttamaan haastavissa tilaneissa.
 
 
-Hyökkäys toimi tässä siten, että kyselyitä lähetettiin aivan valtava määrä, ja saatiin ruuhkautettua toinen kone. Ilmeisesti kaikki paketit ovat jääneet tcp-handshakessa vain SYN viestin eli minun lähtettämät 1000 pakettia, sekä act viestiä ei tullut kertaakaan, joten yhteys on ruuhkautunut tämän takia.
+Hyökkäys toimi tässä siten, että kyselyitä lähetettiin aivan valtava määrä, ja saatiin ruuhkautettua toinen kone. Ilmeisesti kaikki paketit ovat jääneet tcp-handshakessa vain SYN viestin eli minun lähtettämät 1000 pakettia, sekä ack viestiä ei tullut kertaakaan, joten yhteys on ruuhkautunut tämän takia.
 
 
 

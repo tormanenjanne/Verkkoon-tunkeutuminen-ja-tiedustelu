@@ -17,3 +17,33 @@ lokitiedoissa nähädää se, että h1 on lähetti h2 ssh-yhteyden, mutta se yht
 
 <img width="579" height="206" alt="kuva" src="https://github.com/user-attachments/assets/9f160c8c-c853-415c-a932-ba7d7d38f92c" />
 
+## b) Samassa hakemistossa on myös ICMP Spoofing ja TCP Session Hijacking. Aja molemmat labrat läpi ja kerro, miten molemmat tekniikat toimivat.
+
+### ICMP Spoofing
+
+Hyödynsin tässä tehtävässä ssam246 githubia, ja hänen ohjeistuksiaan molempien tehtävien ajamiseen. polku oli tämä `cd /home/mininet/lab/01-Network-Security-Lab/scripts/`, ja harjoituksen sai ajamalla komennon:
+
+```markdown
+sudo python hub_topo.py
+```
+
+Testasin vielä `pingall` komennolla, jotta saan yhteyden kaikkiin laitteisiin.
+
+<img width="738" height="339" alt="kuva" src="https://github.com/user-attachments/assets/8a4d96a8-cd51-450d-a8ab-a37facf19678" />
+
+Käynnistin h1 koneella sniff_icmp-py, ja pingasin tämän jälkeen h2 -> h1 koneelle. Paketit tulivat normaalisti.
+
+<img width="516" height="141" alt="kuva" src="https://github.com/user-attachments/assets/7936b236-e4cd-4191-92cb-ec0c16afaa0e" />
+
+
+Seuraavaksi ajoin tiedoston spoof_icmp.py ja pyrin lähettämään h3 koneelta pingausta h1 koneelle siten, että h1 kone luulee, että pingaus tulee h2 koneelta.
+
+<img width="743" height="222" alt="kuva" src="https://github.com/user-attachments/assets/52f8d3c0-afb4-4f97-954a-9b8ce9084fff" />
+
+Rehellisesti tehtävä oli haastava, koska en saanut xtermiä toimimaan, ja jouduin hieman soveltamaa tehtävää tekoälyn avustuksella, jotta sain pingaukset sekä tiedostot toimimaan.
+
+
+
+
+
+

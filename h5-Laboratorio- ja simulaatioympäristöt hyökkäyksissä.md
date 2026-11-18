@@ -59,10 +59,28 @@ Seuraavaksi ajoin h3 koneella tcp_hijack.py, ja lähden tutkimaan onnistuiko hy�
 <img width="612" height="306" alt="kuva" src="https://github.com/user-attachments/assets/79598f28-ce25-49b6-afae-2df8d906783a" />
 
 
-Aikaisemmin huomasin, että pystyin h3-koneella tarkastelemaan h1- ja h2-koneiden välillä, koska minulla oli tcp_sniff_session.py tässä auki.
+Aikaisemmin huomasin, että pystyin h3-koneella tarkastelemaan h1- ja h2-koneiden välillä, koska minulla oli tcp_sniff_session.py tässä auki. Lokitiedoissa näkyi muun muassa lähde- sekä kohde osoitteet sekä seq act numerot.
+
+- Seq: Viestin aloittaja ilmoittaa palvelimelle oman sekvenssinumeron, ja millä numerolla hän tulee aloittamaan tämän.
+- act: On kuittaus tästä, ja lähettää oman sekvenssinumeron viestin lähettäjälle, ja luo luotettavan yhteyden (GeekforGeeks 2026) 
 
 <img width="349" height="259" alt="kuva" src="https://github.com/user-attachments/assets/936ca605-22f1-4b2a-a558-fc5e7ce5f11c" />
 
+Kokonaisuudessaan jos ymmärsin oikein, tämän hyökkäyksen tarkoituksena oli kuunnella h1 ja h2 koneiden välistä liikennettä, sekä tämän jälkeen saada selville mahdolliset seq ja act kuittaukset, jolla voitaisiin saada yhteys näiden välille. Lopuksi en saanut kuittausta siitä, sainko lähetettyä h3 koneelta tietoa h1 koneelle, koska lokitiedoissa ei valitettavasti näkynyt mitään tähän viittaavaa tietoa. (abnormal 2026)
+
+## c) Hakemistossa 02-SDN-DDos_Simulation tryout-kansiossa on työkalut, jotta voit ajaa TCP SYN-Flood-hyökkäyksen turvallisesti.
+
+Aloitin tehtävän käynnistämällä verkko-ohjaimen, ja tämän jälkeen menin 2-SDN-DDos_Simulation tryou kansioon, ja käytin komentoa `python simple_tree_top.py`.
+
+<img width="767" height="435" alt="kuva" src="https://github.com/user-attachments/assets/dd3afaf4-352d-4f40-89f3-28c8cf7a2c51" />
+
+
+
+
+## Lähteet
+
+- abnormal 2026. TCP Session Hijacking: How It Works and How to Detect It. Luettavissa: https://abnormal.ai/learning/tcp-session-hijacking. Luettu: 18.11.2026.
+- Geekforgeek 2026. TCP 3-Way Handshake Process. Luettavissa: https://www.geeksforgeeks.org/computer-networks/tcp-3-way-handshake-process/. Luettu: 18.11.2026
 
 
 

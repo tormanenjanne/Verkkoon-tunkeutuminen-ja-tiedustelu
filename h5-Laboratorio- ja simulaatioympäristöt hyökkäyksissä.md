@@ -40,6 +40,7 @@ Seuraavaksi ajoin tiedoston spoof_icmp.py h3 koneella, ja pingasin h2 koneelta h
 
 <img width="743" height="222" alt="kuva" src="https://github.com/user-attachments/assets/52f8d3c0-afb4-4f97-954a-9b8ce9084fff" />
 
+Eli hyökkäyksen tarkoituksena oli muuttaa ip-osoiteta siten, että ne tulevat toiselta koneelta kuin pitäisi. Eli tässä tapauksessa h3-kone lähetti väärennettyjä icmp-viestejä h2-koneelle käyttäen h1-koneen ip-osoitetta. Tämän takia h2-kone luuli viestit tulevan h1-koneelta, vaikka todellisuudessa vastaukset tulivat h3-koneelta. (Powermarc 2025)
 
 ### TCP Hijack
 
@@ -95,6 +96,7 @@ Kokonaisuudessaan tehtävä oli itselle todella haastava. En saanut toimimaan xt
 - Github s.a. SDN_DDoS_Simulation. Luettavissa: https://github.com/santhisenan/SDN_DDoS_Simulation. Luettu: 19.11.2026.
 - Iso-anttila, L. s.a. Verkkoon tunkeutuminen ja tiedustelu. Verkkoon tunkeutuminen ja tiedustelu-opintojakson esitysmateriaali Moodlessa. Haaga-Helia ammattikorkeakoulu. Luettu: 19.11.2026.
 - Miessler, D. 2026. tcpdump Examples: A Tutorial with 150 Commands. Luettavissa: https://danielmiessler.com/blog/tcpdump. Luettu: 18.11.2026
+- Powermarc 2025. What is ping spoofing. Luettavissa: https://powerdmarc.com/what-is-ping-spoofing/. Luettu: 19.11.2026.
 - sciencedirect 2025. SDN TCP-SYN Dataset: A dataset for TCP-SYN flood DDoS attack detection in software-defined networks. :luettavissa: https://www.sciencedirect.com/science/article/pii/S2352340925000460. Luettu: 18.11.2026.
 
 

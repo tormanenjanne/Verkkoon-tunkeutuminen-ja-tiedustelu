@@ -86,7 +86,7 @@ Hyökkäys toimi tässä siten, että kyselyitä lähetettiin aivan valtava mä�
 
 ## yhteenveto
 
-Kokonaisuudessaan tehtävä oli itselle todella haastava. En saanut toimimaan xtermiä sekä kahden viimeisen tehtävän ohjeistukset olivat todella heikot. Veikkaan, jos olisin saanut xtermin toiminaan, olisi ollut helpompaa käyttää työkaluja tässä tehtävässä muun muassa wiresharkkia verkkoliikenteen lukemiseen. Jouduin tehtävien aikana soveltamaan hieman tekoälyllä, jotta saisin luettua lokitietoja, kun minulla ei ollut xtermiä käytössä enkä saanu wiresharkkia toimimaan. Toivoisin jatkossa selkeempiä ohjeistuksia yleisissä ongelmatilanteissa, joita voisi tunnilla käydä läpi
+Kokonaisuudessaan tehtävä oli itselle todella haastava. En saanut toimimaan xtermiä sekä kahden viimeisen tehtävän ohjeistukset olivat todella heikot. Veikkaan, jos olisin saanut xtermin toiminaan, olisi ollut helpompaa käyttää työkaluja tässä tehtävässä muun muassa wiresharkkia verkkoliikenteen lukemiseen. Jouduin tehtävien aikana soveltamaan hieman tekoälyllä, jotta saisin luettua lokitietoja, kun minulla ei ollut xtermiä käytössä enkä saanu wiresharkkia toimimaan. Toivoisin jatkossa selkeempiä ohjeistuksia yleisissä ongelmatilanteissa, joita voisi tunnilla käydä läpi ennen tehtävien aloitusta.
 
 
 

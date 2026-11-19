@@ -40,7 +40,6 @@ Seuraavaksi ajoin tiedoston spoof_icmp.py h3 koneella, ja pingasin h2 koneelta h
 
 <img width="743" height="222" alt="kuva" src="https://github.com/user-attachments/assets/52f8d3c0-afb4-4f97-954a-9b8ce9084fff" />
 
-Rehellisesti tehtävä oli haastava, koska en saanut xtermiä toimimaan, ja jouduin hieman soveltamaa tehtävää tekoälyn avustuksella, jotta sain pingaukset sekä tiedostot toimimaan.
 
 ### TCP Hijack
 

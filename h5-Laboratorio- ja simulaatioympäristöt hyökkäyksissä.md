@@ -36,7 +36,7 @@ Käynnistin h1 koneella sniff_icmp-py, ja pingasin tämän jälkeen h2 -> h1 kon
 <img width="516" height="141" alt="kuva" src="https://github.com/user-attachments/assets/7936b236-e4cd-4191-92cb-ec0c16afaa0e" />
 
 
-Seuraavaksi ajoin tiedoston spoof_icmp.py h3 koneella, ja pingasin h2 koneelta h1 koneelle. Skripti ilmeisesti kuunteli, ja muodosti väärennettyjä paketteja siten, että h3 kone olisi h1 kone. Tässä on kuva, jossa lokitiedoissa nähdään pingauksen menevän perille. En varmistanut tuliko pingaus todellisuudessa h1 koneelta vai h3.
+Seuraavaksi ajoin tiedoston spoof_icmp.py h3 koneella, ja pingasin h2 koneelta h1 koneelle. Skripti ilmeisesti kuunteli, ja muodosti väärennettyjä paketteja siten, että h3 kone olisi h1 kone. Tässä on kuva, jossa lokitiedoissa nähdään pingauksen menevän perille. En varmistanut tuliko pingaus todellisuudessa h1 koneelta vai h3. (Iso-Anttila, L s.a)
 
 <img width="743" height="222" alt="kuva" src="https://github.com/user-attachments/assets/52f8d3c0-afb4-4f97-954a-9b8ce9084fff" />
 
@@ -79,9 +79,11 @@ Käytin hyökkäksen tekemiseen hping3 työkalua, jolla pystyttiin lähettämä�
 
 Komentoja minulla ei juurikaan näy tässä, koska oli hieman tässäkin haasteita saada tämä toimimaan, enkä saanut niitä poimittua jälkeenpäin. Tässä tehtävässä on hyödynnetty lähteitä sekä osittain tekoälyä auttamaan haastavissa tilaneissa.
 
-
 Hyökkäys toimi tässä siten, että kyselyitä lähetettiin aivan valtava määrä, ja saatiin ruuhkautettua toinen kone. Ilmeisesti kaikki paketit ovat jääneet tcp-handshakessa vain SYN viestin eli minun lähtettämät 1000 pakettia, sekä ack viestiä ei tullut kertaakaan, joten yhteys on ruuhkautunut tämän takia.
 
+## yhteenveto
+
+Kokonaisuudessaan tehtävä oli itselle todella haastava. En saanut toimimaan xtermiä sekä kahden viimeisen tehtävän ohjeistukset olivat todella heikot. Veikkaan, jos olisin saanut xtermin toiminaan, olisi ollut helpompaa käyttää työkaluja tässä tehtävässä muun muassa wiresharkkia verkkoliikenteen lukemiseen. Jouduin tehtävien aikana soveltamaan hieman tekoälyllä, jotta saisin luettua lokitietoja, kun minulla ei ollut xtermiä käytössä enkä saanu wiresharkkia toimimaan. Toivoisin jatkossa selkeempiä ohjeistuksia yleisissä ongelmatilanteissa, joita voisi tunnilla käydä läpi
 
 
 
@@ -89,6 +91,9 @@ Hyökkäys toimi tässä siten, että kyselyitä lähetettiin aivan valtava mä�
 
 - abnormal 2026. TCP Session Hijacking: How It Works and How to Detect It. Luettavissa: https://abnormal.ai/learning/tcp-session-hijacking. Luettu: 18.11.2026.
 - Geekforgeek 2026. TCP 3-Way Handshake Process. Luettavissa: https://www.geeksforgeeks.org/computer-networks/tcp-3-way-handshake-process/. Luettu: 18.11.2026.
+- Gitbub s.a. Network-Security-Lab Luettavissa: https://github.com/ssam246/Network-Security-Lab. Luettu: 18.11.2026.
+- Github s.a. SDN_DDoS_Simulation. Luettavissa: https://github.com/santhisenan/SDN_DDoS_Simulation. Luettu: 19.11.2026.
+- Iso-anttila, L. s.a. Verkkoon tunkeutuminen ja tiedustelu. Verkkoon tunkeutuminen ja tiedustelu-opintojakson esitysmateriaali Moodlessa. Haaga-Helia ammattikorkeakoulu. Luettu: 19.11.2026.
 - Miessler, D. 2026. tcpdump Examples: A Tutorial with 150 Commands. Luettavissa: https://danielmiessler.com/blog/tcpdump. Luettu: 18.11.2026
 - sciencedirect 2025. SDN TCP-SYN Dataset: A dataset for TCP-SYN flood DDoS attack detection in software-defined networks. :luettavissa: https://www.sciencedirect.com/science/article/pii/S2352340925000460. Luettu: 18.11.2026.
 

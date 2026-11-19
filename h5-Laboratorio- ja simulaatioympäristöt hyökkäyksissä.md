@@ -78,6 +78,8 @@ Käytin hyökkäksen tekemiseen hping3 työkalua, jolla pystyttiin lähettämä�
 
 <img width="614" height="418" alt="kuva" src="https://github.com/user-attachments/assets/01a9d8b8-91a0-43a9-8089-b5e4a20943da" />
 
+Huomamme kuvassa, joka lähtettä syn viestejä pelkästään, eikä näistä tule kuittauksia olleenkaan ack. Tämän takia toisen koneen liikenne ruuhkaantuu.
+
 Komentoja minulla ei juurikaan näy tässä, koska oli hieman tässäkin haasteita saada tämä toimimaan, enkä saanut niitä poimittua jälkeenpäin. Tässä tehtävässä on hyödynnetty lähteitä sekä osittain tekoälyä auttamaan haastavissa tilaneissa.
 
 Hyökkäys toimi tässä siten, että kyselyitä lähetettiin aivan valtava määrä, ja saatiin ruuhkautettua toinen kone. Ilmeisesti kaikki paketit ovat jääneet tcp-handshakessa vain SYN viestin eli minun lähtettämät 1000 pakettia, sekä ack viestiä ei tullut kertaakaan, joten yhteys on ruuhkautunut tämän takia.

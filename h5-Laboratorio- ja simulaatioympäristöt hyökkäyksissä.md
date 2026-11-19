@@ -61,7 +61,7 @@ Seuraavaksi ajoin h3 koneella tcp_hijack.py, ja lähden tutkimaan onnistuiko hy�
 Aikaisemmin huomasin, että pystyin h3-koneella tarkastelemaan h1- ja h2-koneiden välillä, koska minulla oli tcp_sniff_session.py tässä auki. Lokitiedoissa näkyi muun muassa lähde- sekä kohde osoitteet sekä seq act numerot.
 
 - Seq: Viestin aloittaja ilmoittaa palvelimelle oman sekvenssinumeron, ja millä numerolla hän tulee aloittamaan tämän.
-- act: On kuittaus tästä, ja lähettää oman sekvenssinumeron viestin lähettäjälle, ja luo luotettavan yhteyden (GeekforGeeks 2026) 
+- ack: On kuittaus tästä, ja lähettää oman sekvenssinumeron viestin lähettäjälle, ja luo luotettavan yhteyden (GeekforGeeks 2026) 
 
 <img width="349" height="259" alt="kuva" src="https://github.com/user-attachments/assets/936ca605-22f1-4b2a-a558-fc5e7ce5f11c" />
 

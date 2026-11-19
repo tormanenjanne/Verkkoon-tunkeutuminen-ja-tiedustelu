@@ -5,7 +5,7 @@ Mininetissä selvitin aluksi nodejen mac-osoitteet Larin ohjeistuksien mukaisest
 
 <img width="550" height="49" alt="kuva" src="https://github.com/user-attachments/assets/2331e877-2779-4bf9-bb80-94d5f6de5de4" />
 
-Kuvassa nähään h2 ja h3 koneiden mac-osoitteet. Kun sain tehtyä arp-hyökkyäksen huomasin, että h1 luuli h2 ip-osoiteen sekä mac-osoitteen vastaavan h2-konetta, mutta todellisuudessa tiedot meni arp-hyökkäyksen takia h3-koneelle, koska mac-osoite osoitteh3-koneelle.
+Kuvassa nähään h2 ja h3 koneiden mac-osoitteet. Kun sain tehtyä arp-hyökkyäksen huomasin, että h1 luuli h2 ip-osoiteen sekä mac-osoitteen vastaavan h2-konetta, mutta todellisuudessa tiedot meni arp-hyökkäyksen takia h3-koneelle, koska mac-osoite on h3-koneelle.
 
 <img width="569" height="34" alt="kuva" src="https://github.com/user-attachments/assets/36c5470e-a2af-42df-9b77-44ab4b7bb43e" />
 

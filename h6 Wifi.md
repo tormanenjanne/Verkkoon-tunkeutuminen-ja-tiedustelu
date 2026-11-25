@@ -64,9 +64,20 @@ Kirjoittamalla selaimeen kyseisen ip-osoitteen, löysin täältä flagin.
 
 <img width="923" height="781" alt="kuva" src="https://github.com/user-attachments/assets/a80e4625-7e3f-4d19-b4cf-a65c75da6a28" />
 
+Nämä vihreällä olevat tehtävät sain ratkaistua.
+
+<img width="770" height="785" alt="kuva" src="https://github.com/user-attachments/assets/eed60f36-afdb-4f0f-869e-d552e2ac04ec" />
 
 
 
+
+## b) Kirjoita raportti siitä mitä opit ja mitkä asia yllättivät sinut kun tutustuit harjoitukseen.
+
+Harjoituksien aikana opin tunnistamaan: mitä kanavaa jotkut laitteet käyttävät sekä miten voi saada asiakkaan mac-osoitteen selville. Myös senkin, miten voi saada salasanat selville Wiresharkin avulla, ja kuinka voidaan manipuolida mac-osoitteita, jotta ne kuuluisi oikeastaan minulle, ja saisin selville arkaluontoista tietoa muun muassa salansanoja. Harjoitukissa yllätti se kuinka heikko salaus WEP ja OPN oikeastaan on, ja miten helposti näihin voidaan murtautua. Toisaalta Lari mainitsikin tunnilla näiden olevan juridisista syistä, jotta voidaan syyttää hyökkääjä tehneessä rikoksen.
+
+## c) Miten suhtautumisesi WLanin turvallisuuteen muuttui sen jälkeen kun teit harjoitukset?
+
+Suhtaudun jatkossa hieman kriittisemmin Wlaniin. Tunnilla kuulta näistä salauksita voidaan todeta, että nämä on yllättävän helposti purettavissa, ja saadaan selville arkaluontoisia tietoja. En ole siis ihan varma käytetäänkö näitä heikkoja salausmenetelmiä enään, mutta jatkossa en aio käyttää ilmaisia julkisia Wlaneja.
 
 
 

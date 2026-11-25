@@ -77,9 +77,7 @@ Harjoituksien aikana opin tunnistamaan: mitä kanavaa jotkut laitteet käyttäv�
 
 ## c) Miten suhtautumisesi WLanin turvallisuuteen muuttui sen jälkeen kun teit harjoitukset?
 
-Suhtaudun jatkossa hieman kriittisemmin Wlaniin. Tunnilla kuulta näistä salauksita voidaan todeta, että nämä on yllättävän helposti purettavissa, ja saadaan selville arkaluontoisia tietoja. En ole siis ihan varma käytetäänkö näitä heikkoja salausmenetelmiä enään, mutta jatkossa en aio käyttää ilmaisia julkisia Wlaneja.
-
-
+Suhtaudun jatkossa hieman kriittisemmin Wlaniin. Tunnilla kuulta näistä salauksita voidaan todeta, että nämä on yllättävän helposti purettavissa, ja saadaan selville arkaluontoisia tietoja. En ole siis ihan varma käytetäänkö näitä heikkoja salausmenetelmiä enään, mutta jatkossa harkitsen useampaan kertaan haluanko liittyä julkisiin Wlaneihin.
 
 
 

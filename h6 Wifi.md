@@ -60,7 +60,7 @@ Lopuksi yhdistin wep-verkkoon configuraatio tiedostolla `wpa_supplicant -D nl802
 
 <img width="725" height="282" alt="kuva" src="https://github.com/user-attachments/assets/b377dd71-639c-4c0f-bf10-7cad177ea49c" />
 
-Kirjoittamalla selaimeen kyseisen ip-osoitteen, löysin täältä flagin.
+Kirjoittamalla selaimeen kyseisen ip-osoitteen, löysin täältä flagin. (Wifi-hacking s.a)
 
 <img width="923" height="781" alt="kuva" src="https://github.com/user-attachments/assets/a80e4625-7e3f-4d19-b4cf-a65c75da6a28" />
 

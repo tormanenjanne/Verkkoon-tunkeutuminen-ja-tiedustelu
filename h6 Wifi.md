@@ -73,7 +73,7 @@ Nämä vihreällä olevat tehtävät sain ratkaistua.
 
 ## b) Kirjoita raportti siitä mitä opit ja mitkä asia yllättivät sinut kun tutustuit harjoitukseen.
 
-Harjoituksien aikana opin tunnistamaan: mitä kanavaa jotkut laitteet käyttävät sekä miten voi saada asiakkaan mac-osoitteen selville. Myös senkin, miten voi saada salasanat selville Wiresharkin avulla, ja kuinka voidaan manipuolida mac-osoitteita, jotta ne kuuluisi oikeastaan minulle, ja saisin selville arkaluontoista tietoa muun muassa salansanoja. Harjoitukissa yllätti se kuinka heikko salaus WEP ja OPN oikeastaan on, ja miten helposti näihin voidaan murtautua. Toisaalta Lari mainitsikin tunnilla näiden olevan juridisista syistä, jotta voidaan syyttää hyökkääjä tehneessä rikoksen.
+Harjoituksien aikana opin tunnistamaan: mitä kanavaa jotkut laitteet käyttävät sekä miten voi saada asiakkaan mac-osoitteen selville. Myös senkin, miten voi saada salasanat selville Wiresharkin avulla, ja kuinka voidaan manipuolida mac-osoitteita, jotta ne kuuluisi oikeastaan minulle, ja saisin selville arkaluontoista tietoa muun muassa salansanoja. Harjoituksissa yllätti se kuinka heikko salaus WEP ja OPN oikeastaan on, ja miten helposti näihin voidaan murtautua. Toisaalta Lari mainitsikin tunnilla näiden olevan juridisista syistä, jotta voidaan syyttää hyökkääjä tehneesä rikoksen.
 
 ## c) Miten suhtautumisesi WLanin turvallisuuteen muuttui sen jälkeen kun teit harjoitukset?
 

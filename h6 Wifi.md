@@ -88,6 +88,7 @@ Suhtaudun jatkossa hieman kriittisemmin Wlaniin. Tunnilla kuulta näistä salauk
 - Airodump s.a. Airodump-ng. Luettavissa: https://www.aircrack-ng.org/doku.php?id=airodump-ng. Luettu: 24.11.2026.
 - aircrack-ng. Besside-ng:n .Luettavissa: https://www.aircrack-ng.org/doku.php?id=besside-ng. Luettu: 25.11.2026.
 - Iso-Anttila, L. s.a. Verkkoon tunkeutuminen ja tiedustelu -opintojakson esitysmateriaali Moodlessa. Haaga-Helia ammattikorkeakoulu. Luettu: 24.11.2026.
+- Wifi-hacking s.a. Wifi - Challenge Labs - Complete Walkthrough . Luettavissa: https://wifi-hacking.cavementech.com/wifi-challenge-labs/wifi-challenge-labs-complete-walkthrough. Luettu: 25.11.2026.
 
 
 

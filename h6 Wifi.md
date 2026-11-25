@@ -56,9 +56,19 @@ network={
 }
 ```
 
-- ssid: reitittimen nimi
-- key_mgmt:
-- wep_key0: mac-osoite laitteelle
+Lopuksi yhdistin wwp-verkkoon configuraatio tiedostolla `wpa_supplicant -D nl80211 -i wlan2 -c wep.conf`, ja avasin toisen terminaalin, josta saisin DHCP-palvelimelta ip-osoitteen komennolla `dhclient wlan2 -v`. Ip-osoite löytyi, ja se oli `192.168.1.1`.
+
+<img width="725" height="282" alt="kuva" src="https://github.com/user-attachments/assets/b377dd71-639c-4c0f-bf10-7cad177ea49c" />
+
+Kirjoittamalla selaimeen kyseisen ip-osoitteen, löysin täältä flagin.
+
+<img width="923" height="781" alt="kuva" src="https://github.com/user-attachments/assets/a80e4625-7e3f-4d19-b4cf-a65c75da6a28" />
+
+
+
+
+
+
 
 
 

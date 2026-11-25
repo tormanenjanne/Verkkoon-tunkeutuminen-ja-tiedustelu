@@ -45,7 +45,7 @@ Ajettua besside-ng:n, se löysi lopulta kohteen salasanan.
 
 <img width="939" height="106" alt="kuva" src="https://github.com/user-attachments/assets/d28d36bc-fd09-488b-a3f4-79f81bbe5aaa" />
 
-Lähdin luomaan configuraatio tiedostoa komennolla `nano wep.conf`m ja lisäsin sinne nämä tiedot:
+Lähdin luomaan configuraatio tiedostoa komennolla `nano wep.conf` ja lisäsin sinne nämä tiedot:
 
 ```markdown
 network={

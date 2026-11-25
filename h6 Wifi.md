@@ -30,9 +30,42 @@ Kuten huomaamme bssid kertoo ap eli access pointin mac-osoitteen, ja kohdassa **
 
 <img width="855" height="437" alt="kuva" src="https://github.com/user-attachments/assets/34b124d6-7199-46bf-a094-855c14756ddc" />
 
+### 07. Get wifi-old password
+
+Tässä tehtävässä hyödynsin walkthroughia, joten alotin tehtävän käynnistämällä wlan monitorin päälle `sudo airmon-ng start wlan0`, ja tämän jälkeen katsoin, mikä mac-osoite kuuluu tälle kyseiselle wlanille `sudo airodump-ng wlan1mon -w scan --manufacturer`. 
+
+<img width="932" height="358" alt="kuva" src="https://github.com/user-attachments/assets/1b7fcfc0-c23e-4a19-b53e-befc77be88b8" />
+
+Kun löysin wifi-old mac-osoitteen, seuraavaksi käytin automaattista ohjelmaa, joka etsii salasanan suoraan tälle. Tässä käytin komentoa `airmon-ng check kill` ja `besside-ng -c 1 -b F0:9F:C2:AA:19:29 wlan2 -v`
+
+- check kill: Komento keskyttää kaikki prosessit, jotka saattavat häiritä aircrack-ng:tä
+- beside-ng: Murtaa automaattisesti kaikki WEP-verkot, ja pyrkii saamaan hyödyllisiä tietoja muun muassa salasanoja. `-c` kuuntelee kanavaa 1 `-b` kohdistaan kohteen mac-osoitteelle `-v` verbose tila, joka näyttää mahdollisimman paljon tietoja.(aircrack-ng)
+
+Ajettua besside-ng:n, se löysi lopulta kohteen salasanan.
+
+<img width="939" height="106" alt="kuva" src="https://github.com/user-attachments/assets/d28d36bc-fd09-488b-a3f4-79f81bbe5aaa" />
+
+Lähdin luomaan configuraatio tiedostoa komennolla `nano wep.conf`m ja lisäsin sinne nämä tiedot:
+
+```markdown
+network={
+  ssid="wifi-old"
+  key_mgmt=NONE
+  wep_key0=11BB33CD55
+  wep_tx_keyidx=0
+}
+```
+
+- ssid: reitittimen nimi
+- key_mgmt:
+- wep_key0: mac-osoite laitteelle
+
+
+
 ## Lähteet
 
 - Airodump s.a. Airodump-ng. Luettavissa: https://www.aircrack-ng.org/doku.php?id=airodump-ng. Luettu: 24.11.2026.
+- aircrack-ng. Besside-ng:n .Luettavissa: https://www.aircrack-ng.org/doku.php?id=besside-ng. Luettu: 25.11.2026.
 - Iso-Anttila, L. s.a. Verkkoon tunkeutuminen ja tiedustelu -opintojakson esitysmateriaali Moodlessa. Haaga-Helia ammattikorkeakoulu. Luettu: 24.11.2026.
 
 

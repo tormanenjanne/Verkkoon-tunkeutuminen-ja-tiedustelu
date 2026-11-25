@@ -56,7 +56,7 @@ network={
 }
 ```
 
-Lopuksi yhdistin wwp-verkkoon configuraatio tiedostolla `wpa_supplicant -D nl80211 -i wlan2 -c wep.conf`, ja avasin toisen terminaalin, josta saisin DHCP-palvelimelta ip-osoitteen komennolla `dhclient wlan2 -v`. Ip-osoite löytyi, ja se oli `192.168.1.1`.
+Lopuksi yhdistin wep-verkkoon configuraatio tiedostolla `wpa_supplicant -D nl80211 -i wlan2 -c wep.conf`, ja avasin toisen terminaalin, josta saisin DHCP-palvelimelta ip-osoitteen komennolla `dhclient wlan2 -v`. Ip-osoite löytyi, ja se oli `192.168.1.1`.
 
 <img width="725" height="282" alt="kuva" src="https://github.com/user-attachments/assets/b377dd71-639c-4c0f-bf10-7cad177ea49c" />
 
